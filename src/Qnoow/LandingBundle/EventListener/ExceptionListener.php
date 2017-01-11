@@ -36,8 +36,6 @@ class ExceptionListener
                 $response->setStatusCode($exception->getStatusCode());
                 $response->headers->replace($exception->getHeaders());
             } else {
-                var_dump($exception);
-                exit;
                 $response->setStatusCode(500);
             }
 
