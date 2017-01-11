@@ -79,7 +79,6 @@ assetic:
             apply_to: "\\.s?css$"
         compass:
             load_paths:
-        #        - %kernel.root_dir%/../web/assets/bower_components/foundation/scss
                 - %kernel.root_dir%/Resources/public/scss
             apply_to: "\\.s[ac]ss$"
 

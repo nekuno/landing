@@ -185,3 +185,8 @@ landing:
      second_section_seventeenth_explanation: '(n) Incorpore virus u otros elementos físicos o electrónicos que puedan dañar o impedir el normal funcionamiento de la red, del sistema o de equipos informáticos (hardware y software) de NEKUNO o de terceros o que puedan dañar los documentos electrónicos y archivos almacenados en dichos equipos informáticos; '
      second_section_eighteenth_explanation: '(o) Provoque por sus características (tales como formato, extensión, etc.) dificultades en el normal funcionamiento del Servicio; '
      second_section_nineteenth_explanation: '(p) No enviar ni difundir de ninguna manera informaciones o contenidos con vínculos a otros sitios de carácter ilegal, contrarios a las buenas costumbres.'
+
+exception:
+    exception:
+        message: 'The resource you are looking for is unavailable or not found.'
+        return: 'You can return to <a href="%url%">home</a>.'

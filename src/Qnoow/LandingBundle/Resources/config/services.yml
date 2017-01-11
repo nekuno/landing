@@ -1,7 +1,13 @@
-parameters:
-#    qnoow_landing.example.class: Qnoow\LandingBundle\Example
-
 services:
-#    qnoow_landing.example:
-#        class: %qnoow_landing.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    # Listeners
+    qnoow.landing.listener.locale_listener:
+        class: Qnoow\LandingBundle\EventListener\LocaleListener
+        arguments: ["%kernel.default_locale%"]
+        tags:
+            - { name: kernel.event_subscriber }
+
+    qnoow.landing.exception.listener:
+        class: Qnoow\LandingBundle\EventListener\ExceptionListener
+        arguments: ["@templating", "@kernel"]
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }

@@ -1,0 +1,19 @@
+{% extends 'QnoowLandingBundle:layout:base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="columns large-6 large-centered" style="color:white">
+
+            <h2 style="color:white">Error {{ exception.statusCode }}</h2>
+
+            <p>
+                {{ 'exception.exception.message'|trans }}
+            </p>
+
+            <p>
+                {{ 'exception.exception.return'|trans({'%url%': path('qnoow_landing_homepage')})|raw }}
+            </p>
+        </div>
+    </div>
+
+{% endblock %}
