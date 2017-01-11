@@ -1,0 +1,41 @@
+{% extends 'QnoowLandingBundle:layout:base.html.twig' %}
+
+{% block body %}
+    <div class="container squared-page-container press-container">
+        <div class="transparency-layer"></div>
+        {% include 'QnoowLandingBundle:layout:header-container.html.twig' %}
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <section class="first-section">
+                        <div class="chip">{{ 'landing.press.press'|trans }}</div>
+                        <h2>{{ 'landing.press.first_section_title'|trans }}</h2>
+                        <h3>{{ 'landing.press.first_section_first_explanation'|trans }}</h3>
+                        <p>{{ 'landing.press.first_section_second_explanation'|trans|raw }}</p>
+                    </section>
+                    <section class="body-section">
+                        <div class="cropped-body-section">
+                            <div class="squared-section-text press-section-text squared-first-section-text press-first-section-text">
+                                <h2>{{ 'landing.press.second_section_title'|trans }}</h2>
+                                <p>{{ 'landing.press.second_section_explanation'|trans }}</p>
+                                <p><a href="/nekuno.zip">{{ 'landing.press.download_zip_file'|trans }}</a></p>
+                            </div>
+                            <figure class="squared-section-figure press-section-figure squared-first-section-figure press-first-section-figure"></figure>
+                        </div>
+                    </section>
+                    <section class="body-section">
+                        <div class="cropped-body-section">
+                            <div class="squared-section-text press-section-text squared-second-section-text press-second-section-text">
+                                <h2>{{ 'landing.press.third_section_title'|trans }}</h2>
+                                <p>{{ 'landing.press.third_section_explanation'|trans }}</p>
+                                <p><a href="/nekuno.zip">{{ 'landing.press.download_zip_file'|trans }}</a></p>
+                            </div>
+                            <figure class="squared-section-figure press-section-figure squared-second-section-figure press-second-section-figure"></figure>
+                        </div>
+                    </section>
+                </article>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+        {% include 'QnoowLandingBundle:layout:footer-container.html.twig' %}
+    </div>
+{% endblock %}

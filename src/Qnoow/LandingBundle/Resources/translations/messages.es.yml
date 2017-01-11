@@ -1,0 +1,187 @@
+landing:
+  general:
+    comments: Comentarios
+    download_app_first_line: 'Descargar App'
+    comming_soon: 'Próximamente en'
+    apple_store: 'Apple Store'
+    google_play: 'Google Play'
+    close: Cerrar
+
+  navigation:
+    discover_nekuno: 'Descubre Nekuno'
+    login: 'Entrar'
+    login_with_facebook: 'Entrar con Facebook'
+    follow_us: Síguenos
+    all_rights_reserved: 'Todos los derechos reservados.'
+    product:
+      product: Producto
+      how_it_works: '¿Cómo funciona?'
+      faq: 'Preguntas frecuentes'
+      enterprise: 'Nekuno para empresas'
+      ask_invitation: 'Solicitar una invitación'
+    nekuno:
+      nekuno: Nekuno
+      about_us: 'Sobre nosotros'
+      press: Prensa
+      jobs: Empleo
+      blog: Blog
+    support:
+      support: Soporte
+      contact: Contacto
+      use_terms: 'Términos de uso'
+      privacy_policy: 'Política de privacidad'
+      legal_notice: 'Aviso legal'
+
+  vertical-navigation:
+    contents: Contenidos
+    persons: Personas
+    privacy: Privacidad
+
+  home:
+    first_section_title: 'Un Internet para ti'
+    first_section_explanation: 'Nekuno te acerca al futuro que más deseas, porque es capaz de entenderte y conocer todo lo que hay en este mundo a través de Internet.'
+    content_section_title: 'Decide sobre qué quieres sorprenderte'
+    content_section_explanation: 'Podrás fijar el tipo de recomendaciones que quieres recibir o dejar que Nekuno elija por ti.'
+    persons_section_title: 'Sabemos que es lo que te gusta porque  sabemos a quien te pareces'
+    persons_section_explanation: 'Y Nekuno, te ofrece la posibilidad de conocer a esas personas en profundidad, mostrándote cómo de similar y compatible eres con ellos.'
+    slider:
+      organizations_title: 'Redescubre las organizaciones  a las que perteneces'
+      organizations_explanation: 'Pide a tu organización que se inscriba en Nekuno para mejorar el trabajo en equipo al identificar los lazos que más unen a sus miembros.'
+      persons_title: 'Conoce a las personas que querrías en cada momento de tu vida'
+      persons_explanation: 'Filtra en todos los aspectos que desees: desde respuestas claves y gustos tan concretos como una canción, hasta el aspecto físico y el lugar donde viva esa persona.'
+      events_title: 'Encuentra a la gente más compatible en un evento'
+      events_explanation: 'Hay infinidad de gente interesante pero, o no sabes dónde enfocarte, o no sabes donde están. Eso ya no será un problema gracias a Nekuno.'
+    privacy_section_title: 'Nos tomamos muy en serio tu privacidad'
+    privacy_section_explanation: 'Tan en serio que todos los usuarios por defecto son anónimos y tienen el control absoluto de todos sus datos.'
+    privacy_rrss_sub_section_title: 'Nekuno funciona principalmente gracias a las Redes Sociales que sincronizas'
+    privacy_rrss_sub_section_explanation: 'Podrás controlar de qué información se alimenta, y prescindir de ellas si así lo deseas.'
+    privacy_profile_sub_section_title: 'Oculta selectivamente la información que desees mostrar en tu perfil'
+    privacy_profile_sub_section_explanation: 'Sólo el tipo de personas que tu decidas, podrán ponerse en contacto contigo o ver la información que tu elijas.'
+    discover_section: 'Entre tú y un mundo entero por descubrir, sólo hay un botón de separación'
+    blog_section_title: Blog
+    blog_section_explanation: ''
+    apple-store-notice: 'Lo sentimos, la app para iOS todavía no está disponible.'
+
+  about_us:
+    about_us: 'Sobre nosotros'
+    first_section_title: 'Nacimos para conectar a los incomprendidos y acabamos conectando el mundo'
+    first_section_explanation: 'Nos dimos cuenta de que lo que nos hace únicos, es de qué manera y con qué cosas estamos conectados; después descubrimos que el 99% de esas conexiones las compartimos con una población de <span class="internet-users-number"></span>.'
+    second_section_explanation: 'Habitantes de Internet que ven las mismas series, filosofan sobre lo mismo en Twitter/Fb, se apuntan a eventos parecidos; y que en definitiva piensan igual que tu y les gusta lo mismo.'
+    second_section_title: '¿Te imaginas lograr que entre todos se pusieran de acuerdo sobre en qué <span class="changing-word">artículo</span> que tu desconoces te recomiendan hoy? '
+    third_section_title: 'Este es el enorme avance que ha logrado Nekuno.'
+    third_section_explanation: 'Por primera vez en la historia podremos filtrar el mundo entero en función de quienes somos para hacer visible lo invisible, para descubrir aquello que nos encantaría conocer que aún ni siquiera sabemos que existe.'
+    changing_word_1: 'artículo'
+    changing_word_2: 'evento'
+    changing_word_3: 'vídeo'
+    changing_word_4: 'tweet'
+    changing_word_5: 'libro'
+    changing_word_6: 'canal'
+    changing_word_7: 'película'
+    changing_word_8: 'videojuego'
+    changing_word_9: 'restaurante'
+    changing_word_10: 'persona'
+    changing_word_11: 'serie'
+    changing_word_12: 'gif'
+    changing_word_13: 'actividad'
+    changing_word_14: 'receta'
+    changing_word_15: 'producto'
+    nekuno_team: 'Equipo Nekuno'
+    discover_nekuno_team: 'Descubre el equipo de personas que hacen posible Nekuno'
+
+  press:
+    press: Prensa
+    first_section_title: '¿Quieres escribir sobre nosotros?'
+    first_section_first_explanation: 'Aquí encontrarás toda la información y materiales que necesitas.'
+    first_section_second_explanation: 'O si lo prefieres, ponte en <a href="/contact">contacto con nosotros</a>.'
+    second_section_title: 'Logotipo'
+    second_section_explanation: 'Nekuno es una marca registrada. Te proporcionamos todas las versiones de nuestro logotipo y unas guías de uso para que lo apliques siempre de forma correcta.'
+    third_section_title: 'Dossier de prensa'
+    third_section_explanation: 'Ponemos a tu disposición todo tipo de materiales para que puedas componer tu nota prensa sobre Nekuno: acerca de la aplicación, acerca de Nekuno, pantallazos de la app y nota de prensa. ¡Gracias por tu colaboración!'
+    download_zip_file: 'Descargar archivo zip'
+
+  jobs:
+    first_section_title: '¿Quieres trabajar en la empresa que cambiará la forma de disfrutar de Internet?'
+    first_section_explanation: 'En Nekuno siempre estamos abiertos a nuevas ideas y propuestas. Escríbenos a empleo@nekuno.com para contarnos a qué te dedicas y por qué te gustaría formar parte de nuestro equipo.'
+
+  faq:
+    first_section_title: 'Preguntas frecuentes'
+    first_section_first_explanation: 'En este apartado recogemos las preguntas más frecuentes de nuestros usuarios y las respuestas a sus dudas.'
+    first_section_second_explanation: 'Si quieres preguntarnos algo en concreto, ponte en contacto con nosotros.'
+    second_section_title: '¿Cómo funciona Nekuno?'
+    second_section_first_sub_section_title: '¿Por qué necesito conectar mis redes sociales con Nekuno?'
+    second_section_first_sub_section_explanation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.'
+    second_section_second_sub_section_title: 'Si quiero darme de baja, ¿boarráis mis datos de la plataforma?'
+    second_section_second_sub_section_explanation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.'
+
+  enterprise_contact:
+    message: 'Nekuno para empresas te ayudará a organizar eventos y facilitar las relaciones entre los participantes. ¡Solicita acceso para averiguar cómo!'
+    success: '¡Solicitud enviada!'
+    error: 'La solicitud no se ha podido enviar'
+    telephone_number: 'Número de teléfono'
+    name: Nombre
+    send: Enviar
+
+  contact:
+    message: '¿Quieres hablar con nosotros? ¡Te responderemos encantados lo antes posible!'
+    name: Nombre
+    text: Texto
+    send: Enviar
+    success: '¡Solicitud enviada!'
+    error: 'La solicitud no se ha podido enviar'
+
+  privacy_policy:
+     first_section_title: 'Política de privacidad'
+     first_section_first_explanation: 'De conformidad con lo dispuesto en la Ley Orgánica 15/ 1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, (LOPD), se informa a los usuarios que los datos de carácter personal que nos faciliten, serán incorporados a un fichero titularidad de NEKUNO, S.L.'
+     first_section_second_explanation: 'La empresa NEKUNO, S.L. tiene implantadas las medidas de seguridad de índole técnica y organizativas necesarias que garanticen la seguridad de sus datos de carácter personal y eviten su alteración, pérdida, tratamiento y/o acceso no autorizado, habida cuenta del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que están expuestos, ya provengan de la acción humana o del medio físico o natural.'
+     first_section_third_explanation: 'De acuerdo con la normativa vigente en materia de protección de datos así como en materia de servicios de la sociedad de la información y de comercio electrónico, los datos personales que el Usuario que facilite a serán incorporados a ficheros titularidad de esta empresa, con la finalidad de facilitar la prestación de los servicios solicitados, para la correcta identificación de los usuarios que solicitan servicios personalizados, para la realización de estudios estadísticos de los Usuarios registrados en NEKUNO que permitan diseñar mejoras en los servicios prestados, para la gestión de tareas básicas de administración, así como para mantener informados a los Usuarios, bien por correo electrónico bien por cualquier otro medio, de novedades, productos y servicios relacionados con NEKUNO o con terceras empresas colaboradoras. En el caso de comunicaciones comerciales a través de correo electrónico o medio equivalente, el usuario presta su consentimiento expreso para el envío de publicidad a través de dicho medio.'
+     first_section_fourth_explanation: 'El usuario responderá, en cualquier caso, de la veracidad de los datos facilitados, reservándose NEKUNO, el derecho a excluir de los servicios registrados a todo usuario que haya facilitado datos falsos, sin perjuicio de las demás acciones que procedan en Derecho.'
+     second_section_title: '¿Cuándo y por qué recabamos información sobre usted?'
+     second_section_explanation: 'Un Usuario facilita datos personales cuando se inscribe en el Servicio, participa en un concurso, responde a una encuesta, participa en los chats etc. En ciertos casos, estos datos son indispensables para poder participar en el Servicio.'
+     third_section_title: '¿Qué tipo de información se recaba?'
+     third_section_first_explanation: 'Los datos personales que se solicitan para registrarse como usuario son, localidad de residencia, provincia, país, correo electrónico, edad y sexo.'
+     third_section_second_explanation: 'Además, se puede solicitar al Usuario otros datos no personales como la versión del navegador que utiliza el Uusuario, el tipo de sistema operativo o la dirección IP del ordenador.'
+     fourth_section_title: '¿Quién tiene acceso a esta información?'
+     fourth_section_first_explanation: 'NEKUNO protege y garantiza la seguridad en la recogida y tratamiento de datos así como el fiel cumplimiento de la normativa vigente en materia de protección de datos. Los párrafos siguientes informan acerca de nuestras prácticas de recogida y tratamiento de la información.'
+     fourth_section_second_explanation: 'Únicamente se recogen datos de carácter personal para la prestación de nuestros servicios. Dichos datos son incluidos en un fichero de datos de carácter personal titularidad de NEKUNO, S.L., debidamente inscrito en la Agencia de Protección de Datos.'
+     fourth_section_third_explanation: 'En cualquier momento el titular de los datos podrá indicar su intención de que no se le remita más información, comunicando dicha circunstancia mediante email a : info@nekuno.com'
+     fourth_section_fourth_explanation: 'NEKUNO garantiza la aplicación, a los datos personales recogidos, de todas las medidas de seguridad informática exigidas en la vigente normativa de protección de datos siendo estos guardados con estricta confidencialidad en aras a impedir el acceso o uso indebido de los datos por terceros, su manipulación, alteración, deterioro o pérdida.'
+     fourth_section_fifth_explanation: 'De conformidad con lo dispuesto en la Ley Orgánica de Protección de Datos y en su Reglamento de Desarrollo, se compromete a no ceder los datos personales a terceras personas, excluyendo sus anuncios y presentación, ni a utilizar o tratar los datos con alguna finalidad diferente a la actividad y los servicios que nos es propio, salvo que medie el consentimiento expreso del afectado.'
+     fourth_section_sixth_explanation: 'Se informa al usuario sobre la posibilidad de ejercer, en cualquier momento, los derechos de acceso, rectificación, cancelación y oposición, reconocidos por el ordenamiento dirigiendo su solicitud por escrito al Responsable de Ficheros de	en la siguiente dirección: info@nekuno.com'
+     fourth_section_seventh_explanation: 'En el caso de que el Usuario facilite datos de terceros, NEKUNO no se responsabilizará del cumplimiento de los principios de información y consentimiento, por lo que deberá ser el Usuario quien garantice haber informado previamente y obtenido el consentimiento del titular de los mismos para comunicar sus datos.'
+     fifth_section_title: 'Utilización de cookies'
+     fifth_section_first_explanation: 'Le informamos que durante la navegación por el sitio Web se utilizan "cookies", pequeños ficheros de datos que se generan en el ordenador del usuario.'
+     fifth_section_second_explanation: 'Esta información permite a adaptar y mejorar los servicios del sitio Web a los intereses de sus usuarios.'
+     fifth_section_third_explanation: 'No obstante, el usuario tiene la opción de impedir la generación de cookies, mediante la selección de la correspondiente opción en su programa navegador.'
+     sixth_section_title: 'Aceptación y consentimiento'
+     sixth_section_first_explanation: 'El usuario declara haber sido informado de las condiciones de protección de datos de carácter personal, aceptando y consintiendo el tratamiento automatizado de los mismos por parte de NEKUNO,S.L. en la forma y para las finalidades indicadas en la presente POLITICA de PRIVACIDAD.'
+     sixth_section_second_explanation: 'Se entenderá que los Usuarios que suministren voluntariamente informaciones como nombres, fotografías o videos, manifiestan su voluntad, y por consiguiente, consiente expresamente, asumiendo toda la responsabilidad que ello se derive, al tratamiento por parte de NEKUNO, S.L de estos datos.'
+     sixth_section_third_explanation: 'Todo Usuario tiene derecho a acceder o solicitar el acceso a sus datos personales con el objetivo de modificarlos, cancelarlos o impedir cualquier uso de los mismos. Dicha solicitud puede realizarse mediante correo ordinario a la dirección siguiente: info@nekuno.com'
+     sixth_section_fourth_explanation: 'Todo Usuario puede, en el momento de realizar su inscripción o en cualquier otro momento posterior, solicitar la recepción gratuita, por mail, las ofertas promocionales que NEKUNO, S.L envía en nombre de sus socios, y posteriormente anular su suscripción.'
+
+  legal_notice:
+     first_section_title: 'Condiciones de uso'
+     first_section_first_explanation: 'NEKUNO es un servicio de encuentro de afinidades entre personas, contenidos y la afinidad entre ambos, disponible para los Usuarios registrados por Internet.'
+     first_section_second_explanation: 'Para ser Usuario de NEKUNO es necesario ser mayor de edad, si eres mayor de 16 años, es necesaria la autorización materna o paterna.'
+     first_section_third_explanation: 'Con el fin de asegurar una mejor experiencia y calidad de uso para los usuarios el Usuario debe garantizar que los datos indicados por él son exactos y conformes a la realidad.'
+     first_section_fourth_explanation: 'Una vez que se ha inscrito el Usuario dispone de su propia cuenta de correo electrónico y una contraseña de acceso.'
+     first_section_fifth_explanation: 'Derecho de desistimiento: El Usuario dispone de un plazo de siete días hábiles desde la fecha de suscripción de los Servicios para ejercitar su derecho de desistimiento, sin que medie penalidad o motivo alguno.'
+     second_section_title: 'Obligaciones de los usuarios'
+     second_section_first_explanation: 'No publicar ni difundir información o contenidos, independientemente de su forma, que no se ajusten a la realidad. En todo caso el Usuario será el único responsable de las manifestaciones falsas o inexactas que realice y de los perjuicios que cause a NEKUNO o a terceros por la información que facilite.'
+     second_section_second_explanation: 'No realizar declaraciones ni difundir, por cualquier forma o medio, contenidos de carácter difamatorio, agresivo, obsceno, ofensivo, violento o con incitación a la violencia, racista o xenófobo y, de manera general, cualquier contenido contrario, a la normativa vigente o a las buenas costumbres.'
+     second_section_third_explanation: 'En particular, y a título meramente indicativo y no exhaustivo, el Usuario se compromete a no transmitir, difundir o poner a disposición de terceros informaciones, datos, contenidos, mensajes, gráficos, dibujos, archivos de sonido y/o imagen, fotografías, grabaciones, software y en general, cualquier clase de material que:'
+     second_section_fourth_explanation: '(a) De cualquier forma sea contrario, menosprecie o atente contra los derechos fundamentales y las libertades públicas reconocidas constitucionalmente, en los Tratados internacionales y en el resto de la legislación; '
+     second_section_fifth_explanation: '(b) Induzca, incite o promueva actuaciones delictivas, denigratorias, difamatorias, infamantes, violentas o, en general, contrarias a la ley, a la moral y buenas costumbres generalmente aceptadas o al orden público; '
+     second_section_sixth_explanation: '(c) Induzca, incite o promueva actuaciones, actitudes o pensamientos discriminatorios por razón de sexo, raza, religión, creencias, edad o condición; '
+     second_section_seventh_explanation: '(d) Incorpore, ponga a disposición o permita acceder a productos, elementos, mensajes y/o servicios delictivos, violentos, ofensivos, nocivos, degradantes o, en general, contrarios a la ley, a la moral y a las buenas costumbres generalmente aceptadas o al orden público; '
+     second_section_eighth_explanation: '(e) Induzca o pueda inducir a un estado inaceptable de ansiedad o temor; '
+     second_section_ninth_explanation: '(f) Induzca o incite a involucrarse en prácticas peligrosas, de riesgo o nocivas para la salud y el equilibrio psíquico; '
+     second_section_tenth_explanation: '(g) Sea falso, ambiguo, inexacto, exagerado o extemporáneo, de forma que induzca o pueda inducir a error sobre su objeto o sobre las intenciones o propósitos del comunicante; '
+     second_section_eleventh_explanation: '(h) Se encuentre protegido por cualesquiera derechos de propiedad intelectual o industrial pertenecientes a terceros, sin que el Usuario haya obtenido previamente de sus titulares la autorización necesaria para llevar a cabo el uso que efectúa o pretende efectuar; '
+     second_section_twelfth_explanation: '(i) Viole los secretos empresariales de terceros; '
+     second_section_thirteenth_explanation: '(j) Sea contrario al derecho al honor, a la intimidad personal y familiar o a la propia imagen de las personas; '
+     second_section_fourteenth_explanation: '(k) De cualquier manera menoscabe el crédito de o de terceros; '
+     second_section_fifteenth_explanation: '(l) Infrinja la normativa sobre secreto de las comunicaciones; '
+     second_section_sixteenth_explanation: '(m) Constituya, en su caso, publicidad ilícita, engañosa o desleal y, en general, que constituya competencia desleal; '
+     second_section_seventeenth_explanation: '(n) Incorpore virus u otros elementos físicos o electrónicos que puedan dañar o impedir el normal funcionamiento de la red, del sistema o de equipos informáticos (hardware y software) de NEKUNO o de terceros o que puedan dañar los documentos electrónicos y archivos almacenados en dichos equipos informáticos; '
+     second_section_eighteenth_explanation: '(o) Provoque por sus características (tales como formato, extensión, etc.) dificultades en el normal funcionamiento del Servicio; '
+     second_section_nineteenth_explanation: '(p) No enviar ni difundir de ninguna manera informaciones o contenidos con vínculos a otros sitios de carácter ilegal, contrarios a las buenas costumbres.'

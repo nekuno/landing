@@ -1,0 +1,22 @@
+<div class="header-container">
+    <header class="title">
+        <a href="{{ url('qnoow_landing_homepage') }}"><img src="{{ asset('bundles/qnoowlanding/www/img/beta-icons/logo.png') }}" alt="logo"/></a>
+    </header>
+    <nav id="navigation">
+        <ul>
+            <li><a href="{{ path('qnoow_landing_homepage') }}" class="{{ selected == 'discover_nekuno' ? 'selected' : '' }}">{{ 'landing.navigation.discover_nekuno'|trans }}</a></li>
+            <li><a href="{{ path('qnoow_landing_about_us') }}" class="{{ selected == 'about_us' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.about_us'|trans }}</a></li>
+            <li><a href="{{ path('qnoow_landing_press') }}" class="{{ selected == 'press' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.press'|trans }}</a></li>
+            <li><a href="{{ path('qnoow_landing_jobs') }}" class="{{ selected == 'jobs' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.jobs'|trans }}</a></li>
+            <li><a href="http://blog.nekuno.com">{{ 'landing.navigation.nekuno.blog'|trans }}</a></li>
+            <li class="facebook-register-button-item">
+                <div class="facebook-register-button">
+                    <button class="button">
+                        <span class="icon-facebook"></span>
+                        <span>{{ 'landing.navigation.login'|trans }}</span>
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</div>

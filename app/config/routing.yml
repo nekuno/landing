@@ -1,0 +1,7 @@
+qnoow_landing:
+    resource: "@QnoowLandingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# LiipImagineBundle
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"

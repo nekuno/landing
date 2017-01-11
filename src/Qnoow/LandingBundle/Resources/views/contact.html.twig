@@ -1,0 +1,52 @@
+{% extends 'QnoowLandingBundle:layout:base.html.twig' %}
+
+{% block body %}
+    <div class="container simple-page-container">
+        {% include 'QnoowLandingBundle:layout:header-container.html.twig' %}
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <section id="flash-messages-wrapper" class="large-12 columns">
+                        {% for flashMessage in app.session.flashbag.get('info') %}
+                            <div class="notification info">
+                                <div class="message">
+                                    {{ flashMessage|raw }}
+                                </div>
+                            </div>
+                        {% endfor %}
+                        {% for flashMessage in app.session.flashbag.get('error') %}
+                            <div class="notification error">
+                                <div class="message">
+                                    {{ flashMessage|raw }}
+                                </div>
+                            </div>
+                        {% endfor %}
+                        {% for flashMessage in app.session.flashbag.get('success') %}
+                            <div class="notification success">
+                                <div class="message">
+                                    {{ flashMessage|raw }}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </section>
+                    <section>
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <div id="content-center-box" class="radius">
+                                    <div style="padding: 30px;">
+                                        <h2>{{ 'landing.contact.message'|trans|raw }}</h2>
+                                        {{ form_start(form) }}
+                                        {{ form_widget(form) }}
+                                        {{ form_end(form) }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+        {% include 'QnoowLandingBundle:layout:footer-container.html.twig' %}
+    </div>
+{% endblock %}

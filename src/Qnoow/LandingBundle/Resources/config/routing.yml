@@ -1,0 +1,35 @@
+qnoow_landing_homepage:
+    path:     /
+    defaults: { _controller: QnoowLandingBundle:Default:index }
+
+qnoow_landing_about_us:
+    path:     /about-us
+    defaults: { _controller: QnoowLandingBundle:Default:aboutUs }
+
+qnoow_landing_press:
+    path:     /press
+    defaults: { _controller: QnoowLandingBundle:Default:press }
+
+qnoow_landing_jobs:
+    path:     /jobs
+    defaults: { _controller: QnoowLandingBundle:Default:jobs }
+
+#qnoow_landing_frequently_asked_questions:
+#    path:     /faq
+#    defaults: { _controller: QnoowLandingBundle:Default:frequentlyAskedQuestions }
+
+qnoow_landing_enterprise_contact:
+    path:     /enterprise-contact
+    defaults: { _controller: QnoowLandingBundle:Default:enterpriseContact }
+
+qnoow_landing_contact:
+    path:     /contact
+    defaults: { _controller: QnoowLandingBundle:Default:contact }
+
+qnoow_landing_privacy_policy:
+    path:     /privacy-policy
+    defaults: { _controller: QnoowLandingBundle:Default:privacyPolicy }
+
+qnoow_landing_legal_notice:
+    path:     /legal-notice
+    defaults: { _controller: QnoowLandingBundle:Default:legalNotice }

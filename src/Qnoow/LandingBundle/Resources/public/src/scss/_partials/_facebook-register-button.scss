@@ -1,0 +1,92 @@
+.facebook-register-button-item {
+  padding-top: 0 !important;
+}
+.facebook-register-button {
+  font-size: 0.8em;
+  button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-left: none;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 32px;
+    margin: 5% auto;
+    padding: 0 20px 0 0;
+    position: relative;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    .icon-facebook {
+      background-color: white;
+      border: 1px solid #fff;
+      border-radius: 27px 0 0 27px;
+      color: $facebook-blue;
+      -webkit-border-radius: 27px 0 0 27px;
+      -moz-border-radius: 27px 0 0 27px;
+      float: left;
+      font-size: 0.8em;
+      height: 32px;
+      line-height: inherit;
+      padding-left: 15px;
+      padding-right: 10px;
+      margin-left: -2px;
+      margin-right: 15px;
+      margin-top: -1px;
+    }
+
+    &.big-button {
+      font-size: 0.9em;
+      height: 40px;
+      line-height: 40px;
+      margin-top: -5px;
+      margin-bottom: -15px;
+
+      .icon-facebook {
+        font-size: 0.8em;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 15px;
+      }
+    }
+  }
+}
+#navigation-mobile {
+  .facebook-register-button {
+    .button {
+      margin-left: 38px;
+      font-size: 0.8em;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .facebook-register-button {
+    button.big-button {
+      margin-top: -15px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .facebook-register-button {
+    button.big-button {
+      height: 57px;
+      line-height: 57px;
+      .icon-facebook {
+        height: 57px;
+        line-height: 57px;
+      }
+    }
+  }
+}

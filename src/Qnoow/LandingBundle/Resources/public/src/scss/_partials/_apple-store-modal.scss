@@ -1,0 +1,40 @@
+#apple-store-notice {
+  color: white;
+  display: none;
+  font-size: 0.8em;
+  position: fixed;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+  z-index: 111;
+
+  .apple-store-box {
+    background: $dark-purple;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    margin: auto;
+    width: 250px;
+
+    p {
+      padding: 20px;
+    }
+
+    .close {
+      background: $dark-purple;
+      border-radius: 0 0 12px 12px;
+      -moz-border-radius: 0 0 12px 12px;
+      -webkit-border-radius: 0 0 12px 12px;
+      border: none;
+      border-top: 1px solid $dark-gray;
+      color: white;
+      cursor: pointer;
+      padding: 10px;
+    }
+  }
+
+  &.active {
+    display: block;
+  }
+
+}

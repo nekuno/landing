@@ -1,0 +1,26 @@
+{% extends 'QnoowLandingBundle:layout:base.html.twig' %}
+
+{% block body %}
+    <div class="container simple-page-container">
+        {% include 'QnoowLandingBundle:layout:header-container.html.twig' %}
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <section>
+                        <h2>{{ 'landing.faq.first_section_title'|trans }}</h2>
+                        <p>{{ 'landing.faq.first_section_first_explanation'|trans }}</p>
+                        <p>{{ 'landing.faq.first_section_second_explanation'|trans }}</p>
+                    </section>
+                    <section>
+                        <h2>{{ 'landing.faq.second_section_title'|trans }}</h2>
+                        <h3>{{ 'landing.faq.second_section_first_sub_section_title'|trans }}</h3>
+                        <p>{{ 'landing.faq.second_section_first_sub_section_explanation'|trans }}</p>
+                        <h3>{{ 'landing.faq.second_section_second_sub_section_title'|trans }}</h3>
+                        <p>{{ 'landing.faq.second_section_second_sub_section_explanation'|trans }}</p>
+                    </section>
+                </article>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+        {% include 'QnoowLandingBundle:layout:footer-container.html.twig' %}
+    </div>
+{% endblock %}

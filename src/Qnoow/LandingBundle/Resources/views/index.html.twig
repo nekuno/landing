@@ -1,0 +1,198 @@
+{% extends 'QnoowLandingBundle:layout:base.html.twig' %}
+{% set selected = 'discover_nekuno' %}
+{% block body %}
+    {% include 'QnoowLandingBundle:layout:login-form.html.twig' %}
+    {% include 'QnoowLandingBundle:layout:apple-store-modal.html.twig' %}
+    <div class="container" {% if form is defined and not form.vars.valid or error is defined and not error == '' or showLoginForm is defined and showLoginForm %}style="opacity: 0.3;"{% endif %}>
+        {% include 'QnoowLandingBundle:layout:header-container.html.twig' %}
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <div class="scrollable-section for-you">
+                        <div class="for-you-background"></div>
+                        <div class="transparency-layer"></div>
+                        <h2>{{ 'landing.home.first_section_title'|trans }}</h2>
+                        <p>{{ 'landing.home.first_section_explanation'|trans }}</p>
+                        <div class="facebook-register-button">
+                            <button class="button big-button">
+                                <span class="icon-facebook"></span>
+                                <span>{{ 'landing.navigation.login_with_facebook'|trans }}</span>
+                            </button>
+                        </div>
+                        <section class="app-store-buttons">
+                            <a class="border-rounded-button apple-store-link" href="javascript:void(0)">
+                                <span class="icon icon-apple"></span>
+                                <span class="description app-store-description">
+                                    {{ 'landing.general.comming_soon'|trans }}<br/>
+                                    {{ 'landing.general.apple_store'|trans }}
+                                </span>
+                            </a>
+                            <a class="border-rounded-button google-play-link" href="https://play.google.com/store/apps/details?id=com.nekuno">
+                                <span class="icon icon-android"></span>
+                                <span class="description google-play-description">
+                                    {{ 'landing.general.download_app_first_line'|trans }}<br/>
+                                    {{ 'landing.general.google_play'|trans }}
+                                </span>
+                            </a>
+                        </section>
+                        <div class="cards-overview-figure"></div>
+                        <div class="partners-section">
+                            <div class="partner-link partner-hub">
+                                <a href="http://www.impacthub.net/" target="_blank">
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/partner-hub.png') }}"/>
+                                </a>
+                            </div>
+                            <div class="partner-link partner-universidad-la-laguna">
+                                <a href="http://www.ull.es/" target="_blank">
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/partner-universidad-la-laguna.png') }}"/>
+                                </a>
+                            </div>
+                            <div class="partner-link partner-map-asociados">
+                                <a href="http://www.map-asociados.es/" target="_blank">
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/partner-map-asociados.png') }}"/>
+                                </a>
+                            </div>
+                            <div class="partner-link partner-new-chicken">
+                                <a href="javascript:void(0)">
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/partner-new-chincken.png') }}"/>
+                                </a>
+                            </div>
+                            <div class="partner-link partner-tetuan">
+                                <a href="http://tetuanvalley.com/" target="_blank">
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/partner-tetuan.png') }}"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scrollable-section amazing" data-section-title="{{ 'landing.vertical-navigation.contents'|trans }}">
+                        <h2>{{ 'landing.home.content_section_title'|trans }}</h2>
+                        <p>{{ 'landing.home.content_section_explanation'|trans }}</p>
+                        <figure id="cards-overview" class="section-figure"></figure>
+                    </div>
+                    <div class="scrollable-section look-like" data-section-title="{{ 'landing.vertical-navigation.persons'|trans }}">
+                        <h2>{{ 'landing.home.persons_section_title'|trans }}</h2>
+                        <p>{{ 'landing.home.persons_section_explanation'|trans }}</p>
+                        <figure id="users-overview" class="section-figure">
+                            <img src="{{ asset('bundles/qnoowlanding/www/img/users-overview-863.png') }}"/>
+                        </figure>
+                        <div class="slider-transparency-layer"></div>
+                        <div id="slider" class="swipe">
+                            <div class='swipe-wrap'>
+                                <div>
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/discover-slider-organizations.png') }}"/>
+                                    <h3>{{ 'landing.home.slider.organizations_title'|trans }}</h3>
+                                    <p>{{ 'landing.home.slider.organizations_explanation'|trans }}</p>
+                                </div>
+                                <div>
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/discover-slider-persons.png') }}"/>
+                                    <h3>{{ 'landing.home.slider.persons_title'|trans }}</h3>
+                                    <p>{{ 'landing.home.slider.persons_explanation'|trans }}</p>
+                                </div>
+                                <div>
+                                    <img src="{{ asset('bundles/qnoowlanding/www/img/discover-slider-events.png') }}"/>
+                                    <h3>{{ 'landing.home.slider.events_title'|trans }}</h3>
+                                    <p>{{ 'landing.home.slider.events_explanation'|trans }}</p>
+                                </div>
+                            </div>
+                            <div class="slider-dots">
+                                <div class="slider-dot active" data-index="0"></div>
+                                <div class="slider-dot" data-index="1"></div>
+                                <div class="slider-dot" data-index="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scrollable-section holy-privacy" data-section-title="{{ 'landing.vertical-navigation.privacy'|trans }}">
+                        <h2>{{ 'landing.home.privacy_section_title'|trans }}</h2>
+                        <p>{{ 'landing.home.privacy_section_explanation'|trans }}</p>
+                        <section id="privacy-networks">
+                            <figure class="section-figure">
+                                <img src="{{ asset('bundles/qnoowlanding/www/img/networks-overview.png') }}"/>
+                            </figure>
+                            <h3>{{ 'landing.home.privacy_rrss_sub_section_title'|trans }}</h3>
+                            <p>{{ 'landing.home.privacy_rrss_sub_section_explanation'|trans }}</p>
+                        </section>
+                        <section id="privacy-profile">
+                            <figure class="section-figure">
+                                <img src="{{ asset('bundles/qnoowlanding/www/img/other-profile-overview.png') }}"/>
+                            </figure>
+                            <h3>{{ 'landing.home.privacy_profile_sub_section_title'|trans }}</h3>
+                            <p>{{ 'landing.home.privacy_profile_sub_section_explanation'|trans }}</p>
+                        </section>
+
+                    </div>
+                    <section id="discover-the-world">
+                        <h2>{{ 'landing.home.discover_section'|trans }}</h2>
+                        <section class="app-store-buttons">
+                            <a class="border-rounded-button apple-store-link" href="javascript:void(0)">
+                                <span class="icon icon-apple"></span>
+                                <span class="description app-store-description">
+                                    {{ 'landing.general.comming_soon'|trans }}<br/>
+                                    {{ 'landing.general.apple_store'|trans }}
+                                </span>
+                            </a>
+                            <a class="border-rounded-button google-play-link" href="https://play.google.com/store/apps/details?id=com.nekuno">
+                                <span class="icon icon-android"></span>
+                                <span class="description google-play-description">
+                                    {{ 'landing.general.download_app_first_line'|trans }}<br/>
+                                    {{ 'landing.general.google_play'|trans }}
+                                </span>
+                            </a>
+                        </section>
+                    </section>
+                    <section id="opinions">
+
+                    </section>
+                    <section id="blog-posts">
+                        <header>
+                            <h2>{{ 'landing.home.blog_section_title'|trans }}</h2>
+                            <p>{{ 'landing.home.blog_section_explanation'|trans }}</p>
+                        </header>
+                        <article onclick="window.location = '#'">
+                            <header>
+                                <figure>
+                                    <figcaption></figcaption>
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="/>
+                                </figure>
+                                <time></time>
+                                <h3></h3>
+                            </header>
+                            <p></p>
+                            <footer>
+                                <span class="icon-commenting"></span>&nbsp;<span class="comments-number"></span> {{ 'landing.general.comments'|trans }}
+                            </footer>
+                        </article>
+                        <article onclick="window.location = '#'">
+                            <header>
+                                <figure>
+                                    <figcaption></figcaption>
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="/>
+                                </figure>
+                                <time></time>
+                                <h3></h3>
+                            </header>
+                            <p></p>
+                            <footer>
+                                <span class="icon-commenting"></span>&nbsp;<span class="comments-number"></span> {{ 'landing.general.comments'|trans }}
+                            </footer>
+                        </article>
+                        <article onclick="window.location = '#'">
+                            <header>
+                                <figure>
+                                    <figcaption></figcaption>
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="/>
+                                </figure>
+                                <time></time>
+                                <h3></h3>
+                            </header>
+                            <p></p>
+                            <footer>
+                                <span class="icon-commenting"></span>&nbsp;<span class="comments-number"></span> {{ 'landing.general.comments'|trans }}
+                            </footer>
+                        </article>
+                    </section>
+                </article>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+        {% include 'QnoowLandingBundle:layout:footer-container.html.twig' %}
+    </div>
+{% endblock %}

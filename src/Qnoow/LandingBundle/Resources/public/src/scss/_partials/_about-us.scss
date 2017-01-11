@@ -1,0 +1,171 @@
+html body {
+  .container.about-us-container {
+    .header-container {
+      margin-top: 0;
+    }
+    .main-container {
+      .main.wrapper article {
+        section {
+          &.body-section {
+            .about-us-first-section-figure {
+              background: url('img/about-us-1-320.jpg') center top no-repeat;
+            }
+            .about-us-second-section-figure {
+              background: url('img/about-us-2-320.jpg') center top no-repeat;
+            }
+
+            .changing-word {
+              display: inline-block;
+              text-align: center;
+              width: 120px;
+            }
+          }
+
+          &.nekuno-team-section {
+            background: $blog-section-background;
+            padding: 60px 10px 20px;
+            h2 {
+              font-size: 1.4em;
+            }
+            p {
+              font-size: 1em;
+              margin-bottom: 40px;
+            }
+            .nekuno-team-card {
+              background: white;
+              border: 1px solid $blog-section-border;
+              border-radius: 10px;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              display: inline-block;
+              margin-bottom: 30px;
+              max-width: 310px;
+              width: 100%;
+              .nekuno-team-card-figure {
+                height: 250px;
+                margin: 0;
+                overflow-y: hidden;
+                a {
+                  opacity: 1;
+
+                  img {
+                    border-radius: 10px 10px 0 0;
+                    -webkit-border-radius: 10px 10px 0 0;
+                    -moz-border-radius: 10px 10px 0 0;
+                    height: auto;
+                    max-width: 310px;
+                    width: 100%;
+                  }
+                }
+              }
+              h2 {
+                font-size: 1.6em;
+                height: 75px;
+                padding: 0 30px;
+                a {
+                  color: $dark-blue;
+                  opacity: 1;
+                }
+              }
+              p {
+                color: black;
+                opacity: 0.5;
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html body .container.about-us-container {
+    background: url('img/about-us-background-320.jpg') center top no-repeat;
+    background-size: 320px 570px;
+  }
+}
+@media only screen and (min-width: 321px) {
+  html body .container.about-us-container {
+    .main-container .main.wrapper article {
+      section {
+        &.body-section {
+          .about-us-first-section-figure {
+            background: url('img/about-us-1-720.jpg') center top no-repeat;
+          }
+          .about-us-second-section-figure {
+            background: url('img/about-us-2-716.jpg') center top no-repeat;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  html body .container.about-us-container {
+    background: url('img/about-us-background-480.jpg') center top no-repeat;
+    background-size: 480px 640px;
+  }
+}
+@media only screen and (min-width: 481px) {
+  &.nekuno-team-section {
+    .nekuno-team-card {
+      margin: 0 5px;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  html body .container.about-us-container {
+    background: url('img/about-us-background-768.jpg') center top no-repeat;
+    background-size: 768px 420px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  html body .container.about-us-container {
+    .main-container .main.wrapper article {
+      section {
+        &.nekuno-team-section {
+          .nekuno-team-card {
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  html body .container.about-us-container {
+    background: url('img/about-us-background-1024.jpg') center top no-repeat;
+    background-size: 1024px 560px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  html body .container.about-us-container {
+    background: url('img/about-us-background-1440.jpg') center top no-repeat;
+    background-size: 1440px 788px;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  html body .container.about-us-container {
+    background: url('img/about-us-background-1920.jpg') center top no-repeat;
+    background-size: 1920px 1050px;
+  }
+}
+@media only screen and (min-width: 1921px) {
+  html body .container.about-us-container {
+    background: url('img/about-us-background-2880.jpg') center top no-repeat;
+    background-size: 2880px 1576px;
+    .main-container .main.wrapper article {
+      section {
+        &.body-section {
+          .changing-word {
+            width: 170px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{% extends 'QnoowLandingBundle:layout:base.html.twig' %}
+
+{% block body %}
+    <div class="container squared-page-container about-us-container">
+        <div class="transparency-layer"></div>
+        {% include 'QnoowLandingBundle:layout:header-container.html.twig' %}
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <section class="first-section">
+                        <div class="chip">{{ 'landing.about_us.about_us'|trans }}</div>
+                        <h2>{{ 'landing.about_us.first_section_title'|trans }}</h2>
+                        <p>{{ 'landing.about_us.first_section_explanation'|trans|raw }}</p>
+                    </section>
+                    <section class="body-section">
+                        <div class="cropped-body-section">
+                            <div class="squared-section-text about-us-section-text squared-first-section-text about-us-first-section-text">
+                                <p>{{ 'landing.about_us.second_section_explanation'|trans }}</p>
+                                <h2>{{ 'landing.about_us.second_section_title'|trans|raw }}</h2>
+                                <div id="changing-words" style="display:none">
+                                    <span class="changing-word-1">{{ 'landing.about_us.changing_word_1'|trans }}</span>
+                                    <span class="changing-word-2">{{ 'landing.about_us.changing_word_2'|trans }}</span>
+                                    <span class="changing-word-3">{{ 'landing.about_us.changing_word_3'|trans }}</span>
+                                    <span class="changing-word-4">{{ 'landing.about_us.changing_word_4'|trans }}</span>
+                                    <span class="changing-word-5">{{ 'landing.about_us.changing_word_5'|trans }}</span>
+                                    <span class="changing-word-6">{{ 'landing.about_us.changing_word_6'|trans }}</span>
+                                    <span class="changing-word-7">{{ 'landing.about_us.changing_word_7'|trans }}</span>
+                                    <span class="changing-word-8">{{ 'landing.about_us.changing_word_8'|trans }}</span>
+                                    <span class="changing-word-9">{{ 'landing.about_us.changing_word_9'|trans }}</span>
+                                    <span class="changing-word-10">{{ 'landing.about_us.changing_word_10'|trans }}</span>
+                                    <span class="changing-word-11">{{ 'landing.about_us.changing_word_11'|trans }}</span>
+                                    <span class="changing-word-12">{{ 'landing.about_us.changing_word_12'|trans }}</span>
+                                    <span class="changing-word-13">{{ 'landing.about_us.changing_word_13'|trans }}</span>
+                                    <span class="changing-word-14">{{ 'landing.about_us.changing_word_14'|trans }}</span>
+                                    <span class="changing-word-15">{{ 'landing.about_us.changing_word_15'|trans }}</span>
+                                </div>
+                            </div>
+                            <figure class="squared-section-figure about-us-section-figure squared-first-section-figure about-us-first-section-figure"></figure>
+                        </div>
+                    </section>
+                    <section class="body-section">
+                        <div class="cropped-body-section">
+                            <div class="squared-section-text about-us-section-text squared-second-section-text about-us-second-section-text">
+                                <h2>{{ 'landing.about_us.third_section_title'|trans }}</h2>
+                                <p>{{ 'landing.about_us.third_section_explanation'|trans }}</p>
+                            </div>
+                            <figure class="squared-section-figure about-us-section-figure squared-second-section-figure about-us-second-section-figure"></figure>
+                        </div>
+                    </section>
+                    <section class="nekuno-team-section">
+                        <h2>{{ 'landing.about_us.nekuno_team'|trans }}</h2>
+                        <p>{{ 'landing.about_us.discover_nekuno_team'|trans }}</p>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/uriel-francisco-romero-redondo-05335b1a"><img src="{{ asset('bundles/qnoowlanding/www/img/team/uriel.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/uriel-francisco-romero-redondo-05335b1a">Uriel Francisco Romero</a></h2>
+                            <p>Founder - CEO</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/miguel-ángel-pérez-villegas-2494648b"><img src="{{ asset('bundles/qnoowlanding/www/img/team/miguel-angel.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/miguel-ángel-pérez-villegas-2494648b">Miguel Angel Pérez</a></h2>
+                            <p>Co-Founder - CBO</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/juanlumartinez"><img src="{{ asset('bundles/qnoowlanding/www/img/team/juanlu.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/juanlumartinez">Juan Luis Martínez</a></h2>
+                            <p>Chief Technology Officer</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/robertompallarola"><img src="{{ asset('bundles/qnoowlanding/www/img/team/roberto.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/robertompallarola">Roberto Martínez</a></h2>
+                            <p>Data Scientist</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/msalsas"><img src="{{ asset('bundles/qnoowlanding/www/img/team/manolo.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/msalsas">Manolo Salsas</a></h2>
+                            <p>Web Developer</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/growth-hacking-pavelmazuelas"><img src="{{ asset('bundles/qnoowlanding/www/img/team/pavel.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/growth-hacking-pavelmazuelas">Pavel Mazuelas</a></h2>
+                            <p>Growth hacker</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/mussie-a-michael-517290107"><img src="{{ asset('bundles/qnoowlanding/www/img/team/mussie.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/mussie-a-michael-517290107">Mussie H Michael</a></h2>
+                            <p>Vice President of Marketing</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/ismael-fuentes-65016413"><img src="{{ asset('bundles/qnoowlanding/www/img/team/ismael.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/ismael-fuentes-65016413">Ismael Fuentes</a></h2>
+                            <p>Spain-Business Mentor</p>
+                        </section>
+                        <section class="nekuno-team-card">
+                            <figure class="nekuno-team-card-figure">
+                                <a href="https://www.linkedin.com/in/franciscoramosesc"><img src="{{ asset('bundles/qnoowlanding/www/img/team/francisco.jpg') }}" /></a>
+                            </figure>
+                            <h2><a href="https://www.linkedin.com/in/franciscoramosesc">Francisco Ramos</a></h2>
+                            <p>Spain-Business Support</p>
+                        </section>
+                    </section>
+                </article>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+        {% include 'QnoowLandingBundle:layout:footer-container.html.twig' %}
+    </div>
+{% endblock %}

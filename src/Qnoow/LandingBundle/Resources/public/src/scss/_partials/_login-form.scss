@@ -1,0 +1,189 @@
+@import "colors";
+
+.login-fixed-container {
+  display: none;
+  font-size: 0.9em;
+  position: fixed;
+  top: 100px;
+  text-align: center;
+  width: 100%;
+  z-index: 1111;
+
+  .login-form {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 620px;
+
+    .close-login-form {
+      color: $dark-purple;
+      cursor: pointer;
+      margin-top: 20px;
+      margin-left: 580px;
+      position: absolute;
+    }
+
+    #invitation-box, #login-box {
+      color: white;
+      display: inline-block;
+      min-height: 350px;
+      margin-right: -7px;
+      padding: 30px 40px;
+      width: 230px;
+      vertical-align: text-top;
+
+      .box-header {
+        font-size: 0.6em;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+      }
+      .alert-box {
+        color: $green;
+        font-size: 0.8em;
+      }
+      h2 {
+        margin-top: 40px;
+      }
+      p {
+        font-size: 0.7em;
+        font-weight: bold;
+      }
+      .text-input {
+        font-size: 0.7em;
+        margin: 20px auto;
+
+        input[type="text"], input[type="password"], input[type="email"] {
+          background-color: transparent;
+          border: none;
+          color: white;
+          outline: none;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+
+          &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0px 1000px $dark-blue inset;
+            -webkit-text-fill-color: white !important;
+          }
+          &:-webkit-autofill:focus {
+            -webkit-box-shadow: 0 0 0px 1000px $dark-blue inset;
+            -webkit-text-fill-color: white !important;
+          }
+          &:-webkit-autofill:hover {
+            -webkit-box-shadow: 0 0 0px 1000px $dark-blue inset;
+            -webkit-text-fill-color: white !important;
+          }
+        }
+
+        &:after {
+          content: '';
+          display: block;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #888888;
+          z-index: 1;
+        }
+      }
+      .submit-button {
+        font-size: 0.7em;
+        font-weight: bold;
+        margin: 30px auto;
+
+        input[type="submit"] {
+          background-color: $dark-purple;
+          border: 1px solid #888888;
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          color: white;
+          cursor: pointer;
+          outline: 0;
+          padding: 10px 0;
+          text-transform: uppercase;
+          width: 100%;
+        }
+      }
+    }
+    #invitation-box {
+      background: $dark-purple;
+      border-radius: 5px 0 0 5px;
+      -webkit-border-radius: 5px 0 0 5px;
+      -moz-border-radius: 5px 0 0 5px;
+    }
+    #login-box {
+      background: $dark-blue;
+      border-radius: 0 5px 5px 0;
+      -webkit-border-radius: 0 5px 5px 0;
+      -moz-border-radius: 0 5px 5px 0;
+
+      .submit-button {
+        margin-bottom: 10px;
+
+        input[type="submit"] {
+          border: none;
+        }
+      }
+      .password-forgotten {
+        font-size: 0.7em;
+        text-align: center;
+
+        a {
+          color: $dark-purple;
+        }
+      }
+      #social-box {
+        margin-top: 30px;
+
+        p {
+          font-weight: normal;
+          text-align: center;
+
+        }
+        #social-buttons-container {
+          vertical-align: top;
+          ul {
+            text-align: center;
+            text-decoration: none;
+            -moz-padding-start: 0;
+            -webkit-padding-start: 0;
+            li {
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              display: inline-block;
+              height: 30px;
+              margin: 5px;
+              text-align: center;
+              vertical-align: top;
+              width: 30px;
+
+              a {
+                font-size: 0.55em;
+                opacity: 1;
+                vertical-align: sub;
+              }
+
+              &.facebook-button {
+                background: $facebook-blue;
+              }
+              &.twitter-button {
+                background: $twitter-blue;
+              }
+              &.youtube-button {
+                background: $youtube-red;
+              }
+              &.spotify-button {
+                background: $spotify-green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.active {
+    display: block;
+  }
+}

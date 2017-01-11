@@ -1,0 +1,141 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}Nekuno{% endblock %}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="/favicon-landing.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon-landing.ico">
+        <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+        <link rel="apple-touch-icon" href="/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="/favicon-144.png">
+        <meta name="msapplication-config" content="/browserconfig.xml">
+
+        {% block stylesheets %}
+            {% stylesheets
+            'bundles/qnoowlanding/www/css/normalize.min.css'
+            'bundles/qnoowlanding/www/css/main.css' %}
+            <link rel="stylesheet" href="{{ asset_url }}"/>
+            {% endstylesheets %}
+        {% endblock %}
+
+        <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav id="navigation-mobile">
+            <div class="facebook-register-button">
+                <button class="button">
+                    <span class="icon-facebook"></span>
+                    <span>{{ 'landing.navigation.login'|trans }}</span>
+                </button>
+            </div>
+            <div class="navigation-item nav-product">
+                <h4>{{ 'landing.navigation.product.product'|trans }}</h4>
+                <ul class="sub-navigation-items">
+                    <li><a href="{{ path('qnoow_landing_homepage') }}" class="{{ selected == 'discover_nekuno' ? 'selected' : '' }}">{{ 'landing.navigation.discover_nekuno'|trans }}</a></li>
+                    {#<li><a href="#">{{ 'landing.navigation.product.how_it_works'|trans }}</a></li>#}
+                    {#<li><a href="{{ path('qnoow_landing_frequently_asked_questions') }}">{{ 'landing.navigation.product.faq'|trans }}</a></li>#}
+                    <li><a href="{{ path('qnoow_landing_enterprise_contact') }}" class="{{ selected == 'enterprise' ? 'selected' : '' }}">{{ 'landing.navigation.product.enterprise'|trans }}</a></li>
+                    {#<li><a href="#">{{ 'landing.navigation.product.ask_invitation'|trans }}</a></li>#}
+                </ul>
+            </div>
+            <div class="navigation-item nav-nekuno active">
+                <h4>{{ 'landing.navigation.nekuno.nekuno'|trans }}</h4>
+                <ul class="sub-navigation-items">
+                    <li><a href="{{ path('qnoow_landing_about_us') }}" class="{{ selected == 'about_us' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.about_us'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_press') }}" class="{{ selected == 'press' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.press'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_jobs') }}" class="{{ selected == 'jobs' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.jobs'|trans }}</a></li>
+                    <li><a href="http://blog.nekuno.com">{{ 'landing.navigation.nekuno.blog'|trans }}</a></li>
+                </ul>
+            </div>
+            <div class="navigation-item nav-support">
+                <h4>{{ 'landing.navigation.support.support'|trans }}</h4>
+                <ul class="sub-navigation-items">
+                    <li><a href="{{ path('qnoow_landing_contact') }}" class="{{ selected == 'contact' ? 'selected' : '' }}">{{ 'landing.navigation.support.contact'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_legal_notice') }}" class="{{ selected == 'use_terms' ? 'selected' : '' }}">{{ 'landing.navigation.support.use_terms'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_privacy_policy') }}" class="{{ selected == 'privacy_policy' ? 'selected' : '' }}">{{ 'landing.navigation.support.privacy_policy'|trans }}</a></li>
+                    {#<li><a href="{{ path('qnoow_landing_legal_notice') }}">{{ 'landing.navigation.support.legal_notice'|trans }}</a></li>#}
+                </ul>
+            </div>
+        </nav>
+        <section id="menu">
+            <figure id="fixed-nekuno-logo">
+                <img src="{{ asset('bundles/qnoowlanding/www/css/img/menu-logo-beta2.png') }}"/>
+            </figure>
+            <nav id="fixed-web-navigation">
+                <ul>
+                    <li><a href="{{ path('qnoow_landing_homepage') }}" class="{{ selected == 'discover_nekuno' ? 'selected' : '' }}">{{ 'landing.navigation.discover_nekuno'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_about_us') }}" class="{{ selected == 'about_us' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.about_us'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_press') }}" class="{{ selected == 'press' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.press'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_jobs') }}" class="{{ selected == 'jobs' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.jobs'|trans }}</a></li>
+                    <li><a href="http://blog.nekuno.com">{{ 'landing.navigation.nekuno.blog'|trans }}</a></li>
+                    <li class="facebook-register-button-item">
+                        <div class="facebook-register-button">
+                            <button class="button">
+                                <span class="icon-facebook"></span>
+                                <span>{{ 'landing.navigation.login'|trans }}</span>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <figure id="hamburger">
+                <span class="icon-navicon"></span>
+            </figure>
+        </section>
+        {% block body %}
+        {% endblock %}
+
+        {% block javascripts %}
+            {% javascripts
+            '@QnoowLandingBundle/Resources/public/www/js/plugins.js'
+            '@QnoowLandingBundle/Resources/public/www/js/main.js' %}
+            <script src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+
+            {% if google_analytics != 'UA-XXXXX-X' %}
+                <script>
+                    (function(b, o, i, l, e, r) {
+                        b.GoogleAnalyticsObject = l;
+                        b[l] || (b[l] =
+                                function() {
+                                    (b[l].q = b[l].q || []).push(arguments)
+                                });
+                        b[l].l = +new Date;
+                        e = o.createElement(i);
+                        r = o.getElementsByTagName(i)[0];
+                        e.src = '//www.google-analytics.com/analytics.js';
+                        r.parentNode.insertBefore(e, r)
+                    }(window, document, 'script', 'ga'));
+                    ga('create', '{{ google_analytics }}');
+                    ga('send', 'pageview');
+                </script>
+            {% endif %}
+        {% endblock %}
+    </body>
+</html>

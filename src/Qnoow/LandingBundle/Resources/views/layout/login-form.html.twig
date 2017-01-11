@@ -1,0 +1,45 @@
+{% if form is defined %}
+    <div class="login-fixed-container {% if not form.vars.valid or error is defined and not error == '' or showLoginForm %}active{% endif %}">
+        <div class="login-form">
+            <div class="close-login-form">
+                <span class="icon-close"></span>
+            </div>
+            <div id="invitation-box">
+                <div class="box-header">{{ 'login.new_user'|trans }}</div>
+                <h2>{{ 'login.invitations'|trans }}</h2>
+                <p>{{ 'login.invitations_text'|trans }}</p>
+                {{ form_start(form, {'action':  path('qnoow_request_invitation'), 'attr': { class: 'form' }}) }}
+                <div class="alert-box warning">
+                    {% if not form.vars.valid %}
+                        {{ form_errors(form) }}
+                    {% elseif invitationError %}
+                        {{ invitationError }}
+                    {% endif %}
+                </div>
+                <div class="text-input">
+                    {{ form_widget(form.email, {'attr': {'placeholder': 'invitation.invitation_required.email'|trans }}) }}
+                </div>
+                {{ form_rest(form) }}
+                <div class="submit-button">
+                    <input class="nek-button default" type="submit" value="{{ 'login.invitation_request'|trans }}"/>
+                </div>
+                {{ form_end(form) }}
+            </div>
+            <div id="login-box">
+                <div class="box-header">{{ 'login.registered_user'|trans }}</div>
+                <div class="alert-box warning">
+                    {% if error is defined and not error == '' %}
+                        {{ error }}
+                    {% endif %}
+                </div>
+
+                <div style="font-size: 0.7em;margin: 0 auto 89px auto;text-align: center;">
+                    <a href="http://m.nekuno.com" class="button">{{ 'landing.navigation.login'|trans }}</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+{% endif %}

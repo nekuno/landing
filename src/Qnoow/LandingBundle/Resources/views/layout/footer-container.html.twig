@@ -1,0 +1,50 @@
+<div class="footer-container">
+    <footer>
+        <section id="footer-copyright">
+            <figure class="logo-nekuno"></figure>
+            <small>
+                <span class="icon-copyright"></span> 2016 Nekuno<br/>
+                {{ 'landing.navigation.all_rights_reserved'|trans }}
+            </small>
+        </section>
+        <section id="footer-navigation">
+            <section class="footer-sub-navigation-items">
+                <h4>{{ 'landing.navigation.product.product'|trans }}</h4>
+                <ul>
+                    {#<li><a href="#">{{ 'landing.navigation.product.how_it_works'|trans }}</a></li>#}
+                    {#<li><a href="{{ path('qnoow_landing_frequently_asked_questions') }}">{{ 'landing.navigation.product.faq'|trans }}</a></li>#}
+                    <li><a href="{{ path('qnoow_landing_homepage') }}" class="{{ selected == 'discover_nekuno' ? 'selected' : '' }}">{{ 'landing.navigation.discover_nekuno'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_enterprise_contact') }}" class="{{ selected == 'enterprise' ? 'selected' : '' }}">{{ 'landing.navigation.product.enterprise'|trans }}</a></li>
+                    {#<li><a class="request-invitation" href="javascript:void(0)">{{ 'landing.navigation.product.ask_invitation'|trans }}</a></li>#}
+                </ul>
+            </section>
+            <section class="footer-sub-navigation-items">
+                <h4>{{ 'landing.navigation.nekuno.nekuno'|trans }}</h4>
+                <ul>
+                    <li><a href="{{ path('qnoow_landing_about_us') }}" class="{{ selected == 'about_us' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.about_us'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_press') }}" class="{{ selected == 'press' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.press'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_jobs') }}" class="{{ selected == 'jobs' ? 'selected' : '' }}">{{ 'landing.navigation.nekuno.jobs'|trans }}</a></li>
+                    <li><a href="http://blog.nekuno.com">{{ 'landing.navigation.nekuno.blog'|trans }}</a></li>
+                </ul>
+            </section>
+            <section class="footer-sub-navigation-items">
+                <h4>{{ 'landing.navigation.support.support'|trans }}</h4>
+                <ul>
+                    <li><a href="{{ path('qnoow_landing_contact') }}" class="{{ selected == 'contact' ? 'selected' : '' }}">{{ 'landing.navigation.support.contact'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_legal_notice') }}" class="{{ selected == 'use_terms' ? 'selected' : '' }}">{{ 'landing.navigation.support.use_terms'|trans }}</a></li>
+                    <li><a href="{{ path('qnoow_landing_privacy_policy') }}" class="{{ selected == 'privacy_policy' ? 'selected' : '' }}">{{ 'landing.navigation.support.privacy_policy'|trans }}</a></li>
+                    {#<li><a href="{{ path('qnoow_landing_legal_notice') }}">{{ 'landing.navigation.support.legal_notice'|trans }}</a></li>#}
+                </ul>
+            </section>
+        </section>
+        <section id="footer-social-networks">
+            <h4>{{ 'landing.navigation.follow_us'|trans }}</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/nekuners"><div class="icon-facebook icon"></div><span class="footer-social-network-text">Facebook</span></a>
+                <a href="https://twitter.com/nekuners"><div class="icon-twitter icon"></div><span class="footer-social-network-text">Twitter</span></a>
+                <a href="https://www.instagram.com/nekuners/"><div class="icon-instagram icon"></div><span class="footer-social-network-text">Instagram</span></a>
+                <a href="http://blog.nekuno.com/feed/"><div class="icon-feed icon"></div><span class="footer-social-network-text">RSS</span></a>
+            </div>
+        </section>
+    </footer>
+</div>

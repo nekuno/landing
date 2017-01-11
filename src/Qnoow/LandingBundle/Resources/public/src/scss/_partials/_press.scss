@@ -1,0 +1,82 @@
+html body {
+  .container.press-container {
+    .header-container {
+      margin-top: 0;
+    }
+    .main-container {
+      .main.wrapper article {
+        section {
+          &.body-section {
+            .press-first-section-figure {
+              background: url('img/press-1-320.jpg') center top no-repeat;
+            }
+            .press-second-section-figure {
+              background: url('img/press-2-320.jpg') center top no-repeat;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html body .container.press-container {
+    background: url('img/press-background-320.jpg') center top no-repeat;
+    background-size: 320px 570px;
+  }
+}
+@media only screen and (min-width: 321px) {
+  html body .container.press-container {
+    .main-container .main.wrapper article {
+      section {
+        &.body-section {
+          .press-first-section-figure {
+            background: url('img/press-1-723.jpg') center top no-repeat;
+          }
+          .press-second-section-figure {
+            background: url('img/press-2-716.jpg') center top no-repeat;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  html body .container.press-container {
+    background: url('img/press-background-480.jpg') center top no-repeat;
+    background-size: 480px 640px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  html body .container.press-container {
+    background: url('img/press-background-768.jpg') center top no-repeat;
+    background-size: 768px 420px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  html body .container.press-container {
+    background: url('img/press-background-1024.jpg') center top no-repeat;
+    background-size: 1024px 560px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  html body .container.press-container {
+    background: url('img/press-background-1440.jpg') center top no-repeat;
+    background-size: 1440px 788px;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  html body .container.press-container {
+    background: url('img/press-background-1920.jpg') center top no-repeat;
+    background-size: 1920px 1050px;
+  }
+}
+@media only screen and (min-width: 1921px) {
+  html body .container.press-container {
+    background: url('img/press-background-2880.jpg') center top no-repeat;
+    background-size: 2880px 1576px;
+  }
+}

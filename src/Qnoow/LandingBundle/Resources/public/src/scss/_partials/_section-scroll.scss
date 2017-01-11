@@ -1,0 +1,104 @@
+@import "colors";
+
+.bullets-container {
+    margin: 70px;
+
+    .section-bullets {
+        li {
+            border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+            text-transform: none;
+            width: 188px;
+
+            a {
+                overflow: visible;
+
+                span {
+                    background-color: $dark-purple;
+                    border-radius: 30px;
+                  -webkit-border-radius: 30px;
+                  -moz-border-radius: 30px;
+                    color: white;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    margin-right: 10px;
+                    padding: 15px 30px;
+
+                }
+
+                &:before {
+                    border-radius: 0;
+                  -webkit-border-radius: 0;
+                  -moz-border-radius: 0;
+                    background-color: transparent;
+                }
+                &:after {
+                    background-color: $dark-gray;
+                    -webkit-transition: background-color 400ms ease-out;
+                    -moz-transition: background-color 400ms ease-out;
+                    -o-transition: background-color 400ms ease-out;
+                    transition: background-color 400ms ease-out;
+                    border: 2px solid white;
+                    height: 12px;
+                    margin-right: -20px;
+                    width: 12px;
+                }
+
+            }
+
+            &.active {
+                margin: 30px 0;
+                a {
+                    opacity: 1;
+                    &:after {
+                        background-color: $green;
+                        -webkit-transition: background-color 400ms ease-out;
+                        -moz-transition: background-color 400ms ease-out;
+                        -o-transition: background-color 400ms ease-out;
+                        transition: background-color 400ms ease-out;
+                    }
+                }
+
+                &:after {
+                    content: ' ';
+                    border-right: 2px solid $dark-purple;
+                    height: 94px;
+                    margin-left: 1px;
+                    margin-top: -31px;
+                    position: absolute;
+                    z-index: -1;
+                    width: 2px;
+                }
+                @-moz-document url-prefix() {
+                    &:before {
+                        margin-left: 2px;
+                    }
+                }
+            }
+            &:nth-child(1) {
+                a {
+                    span {
+                        display: none;
+                    }
+                }
+
+                &:after {
+                  height: 47px;
+                  margin-top: 15px;
+                }
+            }
+
+            &:nth-child(3) {
+
+            }
+
+            &:nth-child(4) {
+                &:after {
+                  height: 47px;
+                }
+            }
+        }
+    }
+}
+

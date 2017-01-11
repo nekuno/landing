@@ -1,0 +1,49 @@
+# To get started with security, check out the documentation:
+# http://symfony.com/doc/current/security.html
+security:
+
+    # http://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    providers:
+        in_memory:
+            memory: ~
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        main:
+            anonymous: ~
+            # activate different ways to authenticate
+
+            # http_basic: ~
+            # http://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
+
+            # form_login: ~
+            # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+
+    access_control:
+        - { path: ^/$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/request-invitation$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/about-us$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/press$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/jobs$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/contact$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/enterprise-contact$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/legal-notice$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/terms-of-use$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/privacy-policy$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/media/.+, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/landing, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/invitation, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/inv(?!itation)[^/]+/?$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/static, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/connect, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/login, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/geo/search, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/find/[\w\sáéíóúàèò]*$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/, role: ROLE_ADMIN }
+        - { path: ^/, role: ROLE_USER }
