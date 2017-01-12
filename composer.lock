@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e460a46dec12e2e2834e626ca2f19060",
-    "content-hash": "6bb43afadac3a66288b8bed21c38fb61",
+    "hash": "b7573e1104c4400d8f711721e84030be",
+    "content-hash": "5dc9fd724ed164a91caf4c5b45082366",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2199,21 +2199,20 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.0.0",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "2a86dde1288d7270169083d0e078dc7ebe0f48b6"
+                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/2a86dde1288d7270169083d0e078dc7ebe0f48b6",
-                "reference": "2a86dde1288d7270169083d0e078dc7ebe0f48b6",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
-                "symfony/polyfill-mbstring": "~1.0"
+                "php": ">=5.2.7"
             },
             "require-dev": {
                 "symfony/debug": "~2.7",
@@ -2222,7 +2221,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "1.31-dev"
                 }
             },
             "autoload": {
@@ -2257,7 +2256,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-01-05 17:12:02"
+            "time": "2017-01-11 19:36:15"
         }
     ],
     "packages-dev": [
