@@ -1,6 +1,7 @@
 {
-    "name": "manolo/landing",
-    "license": "proprietary",
+    "name": "nekuno/landing",
+    "description": "Nekuno landing",
+    "license": "AGPL-3.0",
     "type": "project",
     "autoload": {
         "psr-4": {
