@@ -79,7 +79,7 @@ assetic:
             apply_to: "\\.s?css$"
         compass:
             load_paths:
-                - %kernel.root_dir%/Resources/public/scss
+                - "%kernel.root_dir%/Resources/public/scss"
             apply_to: "\\.s[ac]ss$"
 
 # LiipImagineBundle
@@ -87,7 +87,7 @@ liip_imagine:
     resolvers:
         default:
             web_path:
-                web_root: %kernel.root_dir%/../web
+                web_root: "%kernel.root_dir%/../web"
                 cache_prefix: media/cache
     cache: default
     filter_sets:
