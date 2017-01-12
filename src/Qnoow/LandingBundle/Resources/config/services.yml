@@ -8,6 +8,6 @@ services:
 
     qnoow.landing.exception.listener:
         class: Qnoow\LandingBundle\EventListener\ExceptionListener
-        arguments: ["@templating", "@kernel"]
+        arguments: ["@templating", "@kernel", "@translator"]
         tags:
             - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }

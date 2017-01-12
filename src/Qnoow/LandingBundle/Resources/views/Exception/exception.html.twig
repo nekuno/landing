@@ -1,19 +1,25 @@
 {% extends 'QnoowLandingBundle:layout:base.html.twig' %}
 
 {% block body %}
-    <div class="row">
-        <div class="columns large-6 large-centered" style="color:white">
+        <div class="container simple-page-container">
+            {% include 'QnoowLandingBundle:layout:header-container.html.twig' %}
+            <div class="main-container">
+                <div class="main wrapper clearfix">
+                    <article>
+                        <section>
+                            <h2>Error {{ exception.statusCode }}</h2>
 
-            <h2 style="color:white">Error {{ exception.statusCode }}</h2>
+                            <p>
+                                {{ 'exception.exception.message'|trans }}
+                            </p>
 
-            <p>
-                {{ 'exception.exception.message'|trans }}
-            </p>
-
-            <p>
-                {{ 'exception.exception.return'|trans({'%url%': path('qnoow_landing_homepage')})|raw }}
-            </p>
+                            <p>
+                                {{ 'exception.exception.return'|trans({'%url%': path('qnoow_landing_homepage')})|raw }}
+                            </p>
+                        </section>
+                    </article>
+                </div>
+            </div>
+            {% include 'QnoowLandingBundle:layout:footer-container.html.twig' %}
         </div>
-    </div>
-
 {% endblock %}

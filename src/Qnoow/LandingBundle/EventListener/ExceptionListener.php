@@ -11,16 +11,23 @@ class ExceptionListener
 {
     protected $templating;
     protected $kernel;
+    protected $translator;
 
-    public function __construct(EngineInterface $templating, $kernel)
+    public function __construct(EngineInterface $templating, $kernel, $translator)
     {
         $this->templating = $templating;
         $this->kernel = $kernel;
+        $this->translator = $translator;
     }
 
     public function onKernelException(GetResponseForExceptionEvent $event)
     {
         if ('prod' == $this->kernel->getEnvironment()) {
+            $request = $event->getRequest();
+            $locale = $request->getSession()->get('_locale');
+            $locale = $locale ?: $request->getLocale();
+            $this->translator->setLocale($locale);
+
             $exception = $event->getException();
 
             $response = new Response();
