@@ -48,14 +48,25 @@ class LocaleListener implements EventSubscriberInterface
             $locale = $this->defaultLocale;
         }
 
-        if (strpos($locale, 'es_') !== false) {
+        if ($this->isSpanishLocale($locale)) {
             $locale = 'es';
-        } elseif (strpos($locale, 'en_') !== false) {
+        } else {
             $locale = 'en';
         }
 
         $request->setLocale($locale);
         $request->getSession()->set('_locale', $locale);
 
+    }
+
+    private function isSpanishLocale($locale)
+    {
+        foreach (['es', 'an', 'ca', 'eu', 'gl'] as $prefix) {
+            if (substr($locale, 0, 2) === $prefix) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
