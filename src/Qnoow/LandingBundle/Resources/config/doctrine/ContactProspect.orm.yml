@@ -1,0 +1,12 @@
+Qnoow\LandingBundle\Entity\ContactProspect:
+    type: entity
+    table: contact_prospects
+    repositoryClass: ContactProspectRepository
+
+    fields:
+        name:
+            type: string
+            nullable: false
+        text:
+            type: string
+            nullable: false

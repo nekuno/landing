@@ -31,7 +31,8 @@
         "liip/imagine-bundle": "^1.7",
         "symfony/assetic-bundle": "^2.8",
         "symfony/translation": "^3.2",
-        "twig/twig": "^1.31"
+        "twig/twig": "^1.31",
+        "doctrine/doctrine-migrations-bundle": "^1.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

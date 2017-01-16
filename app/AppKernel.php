@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Qnoow\LandingBundle\QnoowLandingBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

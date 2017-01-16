@@ -190,3 +190,26 @@ exception:
    exception:
        message: 'El recurso que estás buscando no está disponible o no existe.'
        return: 'Puedes volver a <a href="%url%">inicio</a>.'
+
+login:
+    new_user: 'Nuevo usuario'
+    invitations: '¿Invitaciones?'
+    invitations_text: 'Estamos en beta, pero imagina que un día escribes tu correo y recibes una invitación... Quizás suceda'
+    invitation_request: Imaginar
+    registered_user: 'Usuario registrado'
+    username: Usuario
+    password: Contraseña
+    email: 'Tu e-mail'
+    submit: 'Iniciar sesión'
+    password_forgotten: 'Recuperar contraseña'
+    login_username: 'Inicia sesión con tu usuario y contraseña'
+    login_social_network: 'O inicia sesión conectando con'
+
+invitation:
+    invitation_required:
+        message: 'Nekuno sólo permite el registro con invitación. Por favor, introduce tu email y te enviaremos una invitación lo antes posible.'
+        email: Email
+        send: Enviar
+        flash:
+            email_saved_correctly: 'Gracias por confiar en Nekuno. Contactaremos contigo lo antes posible para darte acceso a la plataforma y explicarte todas las ventajas que te ofrece Nekuno.'
+            error: 'Ha ocurrido un error. Por favor, inténtalo más tarde.'

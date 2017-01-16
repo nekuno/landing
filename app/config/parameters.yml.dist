@@ -21,3 +21,4 @@ parameters:
     assetic.ruby.bin: /usr/bin/ruby
     assetic.sass.bin: /usr/local/bin/sass
     assetic.filter.compass.bin: /usr/local/bin/compass
+    admin.base_url: https://admin.local.nekuno.com/

@@ -1,0 +1,11 @@
+Qnoow\LandingBundle\Entity\EnterpriseProspect:
+    type: entity
+    table: enterprise_prospects
+
+    fields:
+        name:
+            type: string
+            nullable: false
+        telephoneNumber:
+            type: string
+            nullable: false

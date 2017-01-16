@@ -1,0 +1,18 @@
+Qnoow\LandingBundle\Entity\Prospect:
+    type:  entity
+    table: prospects
+    repositoryClass: ProspectRepository
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        email:
+            type: string
+        createdAt:
+            type: datetime
+            nullable: true
+            gedmo:
+                timestampable:
+                    on: create

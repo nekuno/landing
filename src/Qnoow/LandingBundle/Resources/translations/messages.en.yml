@@ -190,3 +190,26 @@ exception:
     exception:
         message: 'The resource you are looking for is unavailable or not found.'
         return: 'You can return to <a href="%url%">home</a>.'
+
+login:
+    new_user: 'New user'
+    invitations: 'Invitations?'
+    invitations_text: 'We’re currently in beta, but if you’re lucky an invitation might just show up in your inbox one day...'
+    invitation_request: 'I’m feeling lucky'
+    registered_user: 'Registered user'
+    username: Username
+    password: Password
+    email: 'Your e-mail'
+    submit: 'Log in'
+    password_forgotten: 'I forgot my password'
+    login_username: 'Login with your user and password'
+    login_social_network: 'Or with your social networks'
+
+invitation:
+    invitation_required:
+        message: 'Nekuno just allows register with invitation. Please, enter your email and we will send to you one invitation soon.'
+        email: Email
+        send: Send
+        flash:
+            email_saved_correctly: 'Thank you for placing your trust in Nekuno. We’ll be in touch shortly to give you access to the platform and explain all the advantages that Nekuno has to offer.'
+            error: 'An error ocurred saving your e-mail. Please try later.'

@@ -2,18 +2,27 @@
 
 namespace Qnoow\LandingBundle\Controller;
 
-use Qnoow\UserBundle\Form\Type\ContactProspectFormType;
-use Qnoow\UserBundle\Form\Type\EnterpriseProspectFormType;
+use Qnoow\LandingBundle\Entity\Prospect;
+use Qnoow\LandingBundle\Form\Type\ContactProspectFormType;
+use Qnoow\LandingBundle\Form\Type\EnterpriseProspectFormType;
+use Qnoow\LandingBundle\Form\Type\ProspectFormType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Doctrine\Common\Persistence\ObjectManager;
 
 class DefaultController extends Controller
 {
-    // This is called from src/Qnoow/UserBundle/Controller/SecurityController.php
-    public function indexAction()
+    public function indexAction(Request $request)
     {
-        return $this->render('QnoowLandingBundle::index.html.twig');
+        $prospect = new Prospect();
+        $form = $this->createForm(ProspectFormType::class, $prospect);
+        return $this->render('QnoowLandingBundle::index.html.twig',
+            array(
+                'form' => $form->createView(),
+                'invitationError' => $request->get('invitationError'),
+                'showLoginForm' => $request->get('showLoginForm'),
+            ));
     }
 
     public function aboutUsAction()
@@ -38,7 +47,7 @@ class DefaultController extends Controller
 
     public function enterpriseContactAction(Request $request)
     {
-        $form = $this->createForm(new EnterpriseProspectFormType());
+        $form = $this->createForm(EnterpriseProspectFormType::class);
         $form->handleRequest($request);
 
         if ($form->isValid()) {
@@ -47,8 +56,8 @@ class DefaultController extends Controller
             $em->persist($form->getData());
             $em->flush();
 
-            $adminBaseUrl = $this->container->getParameter('admin.base_url');
-            $recipients = $this->container->getParameter('enterprise_prospect.recipients');
+            $adminBaseUrl = $this->getParameter('admin.base_url');
+            $recipients = $this->getParameter('enterprise_prospect.recipients');
 
             $message = \Swift_Message::newInstance()
                 ->setSubject('Nueva solicitud de Nekuno para empresas')
@@ -56,7 +65,7 @@ class DefaultController extends Controller
                 ->setTo($recipients)
                 ->setContentType('text/html')
                 ->setBody($this->render(
-                    'QnoowWebBundle:Static/Notification:invitation_requested.html.twig',
+                    'QnoowLandingBundle:Notification:invitation-requested.html.twig',
                     array('enterpriseProspect' => $form->getData(), 'adminBaseUrl' => $adminBaseUrl)));
 
             $translator = $this->get('translator');
@@ -73,7 +82,7 @@ class DefaultController extends Controller
 
     public function contactAction(Request $request)
     {
-        $form = $this->createForm(new ContactProspectFormType());
+        $form = $this->createForm(ContactProspectFormType::class);
         $form->handleRequest($request);
 
         if ($form->isValid()) {
@@ -82,7 +91,7 @@ class DefaultController extends Controller
             $em->persist($form->getData());
             $em->flush();
 
-            $recipients = $this->container->getParameter('contact_prospect.recipients');
+            $recipients = $this->getParameter('contact_prospect.recipients');
 
             $message = \Swift_Message::newInstance()
                 ->setSubject('Nuevo contacto de Nekuno')
@@ -90,7 +99,7 @@ class DefaultController extends Controller
                 ->setTo($recipients)
                 ->setContentType('text/html')
                 ->setBody($this->render(
-                    'QnoowWebBundle:Static/Notification:contact-notification.html.twig',
+                    'QnoowLandingBundle:Notification:contact-notification.html.twig',
                     array('contactProspect' => $form->getData())));
 
 
@@ -114,5 +123,23 @@ class DefaultController extends Controller
     public function legalNoticeAction()
     {
         return $this->render('QnoowLandingBundle::legal-notice.html.twig', array('selected' => 'use_terms'));
+    }
+
+    public function requestInvitationAction(Request $request)
+    {
+        $prospect = new Prospect();
+        $form = $this->createForm(ProspectFormType::class, $prospect);
+        $form->handleRequest($request);
+        $translator = $this->get('translator');
+
+        if ($form->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($prospect);
+            $em->flush();
+
+            return new JsonResponse(array('message' => $translator->trans('invitation.invitation_required.flash.email_saved_correctly')), 200);
+        }
+
+        return new JsonResponse(array('message' => $translator->trans('invitation.invitation_required.flash.error')), 422);
     }
 }

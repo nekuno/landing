@@ -153,7 +153,7 @@
     $('.facebook-register-button button').on('click', function() {
         // Enable to show login form
         /*if (!isProduction() && !isLandingPage() && isDesktopWidth()) {
-            window.location = window.location.pathname.replace(/\/[^\/]+$/, '/login?showLoginForm=true');
+            window.location = window.location.pathname.replace(/\/[^\/]+$/, '/?showLoginForm=true');
         }
         else if (isDesktopWidth()) {
             $('.login-fixed-container').addClass('active');
