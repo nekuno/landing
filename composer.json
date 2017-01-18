@@ -34,8 +34,7 @@
         "symfony/assetic-bundle": "^2.8",
         "symfony/translation": "^3.2",
         "twig/twig": "^1.31",
-        "doctrine/doctrine-migrations-bundle": "^1.0",
-        "ocramius/proxy-manager": "^1.0"
+        "doctrine/doctrine-migrations-bundle": "^1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
