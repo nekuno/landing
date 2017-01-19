@@ -22,3 +22,5 @@ parameters:
     assetic.sass.bin: /usr/local/bin/sass
     assetic.filter.compass.bin: /usr/local/bin/compass
     admin.base_url: https://admin.local.nekuno.com/
+    enterprise_prospect.recipients: [ '' ]
+    contact_prospect.recipients: [ '' ]
