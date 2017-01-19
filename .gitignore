@@ -23,3 +23,4 @@ web/user
 web/css/*
 web/js/*
 web/app_dev.php
+src/Qnoow/LandingBundle/Resources/public/node_modules
