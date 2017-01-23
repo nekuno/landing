@@ -8,7 +8,7 @@
 !/var/logs
 /var/logs/*
 !var/logs/.gitkeep
-/var/sessionss
+/var/sessions
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
