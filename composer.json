@@ -30,7 +30,7 @@
         "sensio/distribution-bundle": "^5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "^2.0",
-        "liip/imagine-bundle": "^1.7",
+        "liip/imagine-bundle": "1.6",
         "symfony/assetic-bundle": "^2.8",
         "symfony/translation": "^3.2",
         "twig/twig": "^1.31",
