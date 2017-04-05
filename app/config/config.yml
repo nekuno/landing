@@ -93,7 +93,7 @@ liip_imagine:
     filter_sets:
         cache: ~
         gallery_small:
-            quality: 75
+            quality: 90
             filters:
                 thumbnail: { size: [94, 94], mode: outbound }
         gallery_medium:
