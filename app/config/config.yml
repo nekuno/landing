@@ -95,7 +95,7 @@ liip_imagine:
         gallery_small:
             quality: 90
             filters:
-                thumbnail: { size: [94, 94], mode: outbound }
+                thumbnail: { size: [188, 188], mode: outbound }
         gallery_medium:
             quality: 90
             filters:
