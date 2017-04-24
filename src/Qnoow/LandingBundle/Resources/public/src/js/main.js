@@ -165,7 +165,7 @@
         } else {
             window.location = 'http://m.nekuno.com';
         }*/
-        window.location = 'http://m.nekuno.com/#/?autoLogin=1';
+        window.location = 'https://m.nekuno.com/#/?autoLogin=1';
     });
     $('a.request-invitation').on('click', function() {
         var loginButton = $('.login-button a')[0];
