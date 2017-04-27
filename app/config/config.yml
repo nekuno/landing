@@ -22,7 +22,7 @@ framework:
     templating:
         engines: ['twig']
     assets:
-        version: 0.2.4
+        version: 0.3.0
     default_locale:  "%locale%"
     trusted_hosts:   ~
     trusted_proxies: ~
