@@ -22,7 +22,7 @@ framework:
     templating:
         engines: ['twig']
     assets:
-        version: 0.2.4
+        version: 0.3.0
     default_locale:  "%locale%"
     trusted_hosts:   ~
     trusted_proxies: ~
@@ -93,9 +93,9 @@ liip_imagine:
     filter_sets:
         cache: ~
         gallery_small:
-            quality: 75
+            quality: 90
             filters:
-                thumbnail: { size: [94, 94], mode: outbound }
+                thumbnail: { size: [188, 188], mode: outbound }
         gallery_medium:
             quality: 90
             filters:
