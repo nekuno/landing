@@ -106,7 +106,7 @@ landing:
   faq:
     first_section_title: 'FAQ'
     first_section_first_explanation: 'En este apartado recogemos las preguntas más frecuentes de nuestros usuarios y las respuestas a sus dudas.'
-    first_section_second_explanation: 'Si quieres preguntarnos algo en concreto, ponte en contacto con nosotros.'
+    first_section_second_explanation: 'Si quieres preguntarnos algo en concreto, ponte en contacto con nosotros.'
     second_section_title: 'How does it work?'
     second_section_first_sub_section_title: '¿Por qué necesito conectar mis redes sociales con Nekuno?'
     second_section_first_sub_section_explanation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.'
@@ -169,21 +169,21 @@ landing:
      second_section_first_explanation: 'No publicar ni difundir información o contenidos, independientemente de su forma, que no se ajusten a la realidad. En todo caso el Usuario será el único responsable de las manifestaciones falsas o inexactas que realice y de los perjuicios que cause a NEKUNO o a terceros por la información que facilite.'
      second_section_second_explanation: 'No realizar declaraciones ni difundir, por cualquier forma o medio, contenidos de carácter difamatorio, agresivo, obsceno, ofensivo, violento o con incitación a la violencia, racista o xenófobo y, de manera general, cualquier contenido contrario, a la normativa vigente o a las buenas costumbres.'
      second_section_third_explanation: 'En particular, y a título meramente indicativo y no exhaustivo, el Usuario se compromete a no transmitir, difundir o poner a disposición de terceros informaciones, datos, contenidos, mensajes, gráficos, dibujos, archivos de sonido y/o imagen, fotografías, grabaciones, software y en general, cualquier clase de material que:'
-     second_section_fourth_explanation: '(a) De cualquier forma sea contrario, menosprecie o atente contra los derechos fundamentales y las libertades públicas reconocidas constitucionalmente, en los Tratados internacionales y en el resto de la legislación; '
-     second_section_fifth_explanation: '(b) Induzca, incite o promueva actuaciones delictivas, denigratorias, difamatorias, infamantes, violentas o, en general, contrarias a la ley, a la moral y buenas costumbres generalmente aceptadas o al orden público; '
-     second_section_sixth_explanation: '(c) Induzca, incite o promueva actuaciones, actitudes o pensamientos discriminatorios por razón de sexo, raza, religión, creencias, edad o condición; '
-     second_section_seventh_explanation: '(d) Incorpore, ponga a disposición o permita acceder a productos, elementos, mensajes y/o servicios delictivos, violentos, ofensivos, nocivos, degradantes o, en general, contrarios a la ley, a la moral y a las buenas costumbres generalmente aceptadas o al orden público; '
-     second_section_eighth_explanation: '(e) Induzca o pueda inducir a un estado inaceptable de ansiedad o temor; '
-     second_section_ninth_explanation: '(f) Induzca o incite a involucrarse en prácticas peligrosas, de riesgo o nocivas para la salud y el equilibrio psíquico; '
-     second_section_tenth_explanation: '(g) Sea falso, ambiguo, inexacto, exagerado o extemporáneo, de forma que induzca o pueda inducir a error sobre su objeto o sobre las intenciones o propósitos del comunicante; '
-     second_section_eleventh_explanation: '(h) Se encuentre protegido por cualesquiera derechos de propiedad intelectual o industrial pertenecientes a terceros, sin que el Usuario haya obtenido previamente de sus titulares la autorización necesaria para llevar a cabo el uso que efectúa o pretende efectuar; '
-     second_section_twelfth_explanation: '(i) Viole los secretos empresariales de terceros; '
-     second_section_thirteenth_explanation: '(j) Sea contrario al derecho al honor, a la intimidad personal y familiar o a la propia imagen de las personas; '
-     second_section_fourteenth_explanation: '(k) De cualquier manera menoscabe el crédito de o de terceros; '
-     second_section_fifteenth_explanation: '(l) Infrinja la normativa sobre secreto de las comunicaciones; '
-     second_section_sixteenth_explanation: '(m) Constituya, en su caso, publicidad ilícita, engañosa o desleal y, en general, que constituya competencia desleal; '
-     second_section_seventeenth_explanation: '(n) Incorpore virus u otros elementos físicos o electrónicos que puedan dañar o impedir el normal funcionamiento de la red, del sistema o de equipos informáticos (hardware y software) de NEKUNO o de terceros o que puedan dañar los documentos electrónicos y archivos almacenados en dichos equipos informáticos; '
-     second_section_eighteenth_explanation: '(o) Provoque por sus características (tales como formato, extensión, etc.) dificultades en el normal funcionamiento del Servicio; '
+     second_section_fourth_explanation: '(a) De cualquier forma sea contrario, menosprecie o atente contra los derechos fundamentales y las libertades públicas reconocidas constitucionalmente, en los Tratados internacionales y en el resto de la legislación;'
+     second_section_fifth_explanation: '(b) Induzca, incite o promueva actuaciones delictivas, denigratorias, difamatorias, infamantes, violentas o, en general, contrarias a la ley, a la moral y buenas costumbres generalmente aceptadas o al orden público;'
+     second_section_sixth_explanation: '(c) Induzca, incite o promueva actuaciones, actitudes o pensamientos discriminatorios por razón de sexo, raza, religión, creencias, edad o condición;'
+     second_section_seventh_explanation: '(d) Incorpore, ponga a disposición o permita acceder a productos, elementos, mensajes y/o servicios delictivos, violentos, ofensivos, nocivos, degradantes o, en general, contrarios a la ley, a la moral y a las buenas costumbres generalmente aceptadas o al orden público;'
+     second_section_eighth_explanation: '(e) Induzca o pueda inducir a un estado inaceptable de ansiedad o temor;'
+     second_section_ninth_explanation: '(f) Induzca o incite a involucrarse en prácticas peligrosas, de riesgo o nocivas para la salud y el equilibrio psíquico;'
+     second_section_tenth_explanation: '(g) Sea falso, ambiguo, inexacto, exagerado o extemporáneo, de forma que induzca o pueda inducir a error sobre su objeto o sobre las intenciones o propósitos del comunicante;'
+     second_section_eleventh_explanation: '(h) Se encuentre protegido por cualesquiera derechos de propiedad intelectual o industrial pertenecientes a terceros, sin que el Usuario haya obtenido previamente de sus titulares la autorización necesaria para llevar a cabo el uso que efectúa o pretende efectuar;'
+     second_section_twelfth_explanation: '(i) Viole los secretos empresariales de terceros;'
+     second_section_thirteenth_explanation: '(j) Sea contrario al derecho al honor, a la intimidad personal y familiar o a la propia imagen de las personas;'
+     second_section_fourteenth_explanation: '(k) De cualquier manera menoscabe el crédito de o de terceros;'
+     second_section_fifteenth_explanation: '(l) Infrinja la normativa sobre secreto de las comunicaciones;'
+     second_section_sixteenth_explanation: '(m) Constituya, en su caso, publicidad ilícita, engañosa o desleal y, en general, que constituya competencia desleal;'
+     second_section_seventeenth_explanation: '(n) Incorpore virus u otros elementos físicos o electrónicos que puedan dañar o impedir el normal funcionamiento de la red, del sistema o de equipos informáticos (hardware y software) de NEKUNO o de terceros o que puedan dañar los documentos electrónicos y archivos almacenados en dichos equipos informáticos;'
+     second_section_eighteenth_explanation: '(o) Provoque por sus características (tales como formato, extensión, etc.) dificultades en el normal funcionamiento del Servicio;'
      second_section_nineteenth_explanation: '(p) No enviar ni difundir de ninguna manera informaciones o contenidos con vínculos a otros sitios de carácter ilegal, contrarios a las buenas costumbres.'
 
 exception:
