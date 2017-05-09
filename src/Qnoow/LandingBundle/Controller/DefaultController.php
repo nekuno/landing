@@ -120,9 +120,13 @@ class DefaultController extends Controller
         return $this->render('QnoowLandingBundle::privacy-policy.html.twig', array('selected' => 'privacy_policy'));
     }
 
-    public function legalNoticeAction()
+    public function legalNoticeAction(Request $request)
     {
-        return $this->render('QnoowLandingBundle::legal-notice.html.twig', array('selected' => 'use_terms'));
+        $locale = $request->getLocale();
+        $markDown = file_get_contents(__DIR__ . '/../Resources/translations/legal-notice_' . $locale . '.md');
+        $parseDown = new \Parsedown();
+
+        return $this->render('QnoowLandingBundle::legal-notice.html.twig', array('html' => $parseDown->text($markDown), 'selected' => 'use_terms'));
     }
 
     public function requestInvitationAction(Request $request)
