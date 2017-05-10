@@ -115,11 +115,6 @@ class DefaultController extends Controller
         return $this->render('QnoowLandingBundle::contact.html.twig', array('selected' => 'contact', 'form' => $form->createView()));
     }
 
-    public function privacyPolicyAction()
-    {
-        return $this->render('QnoowLandingBundle::privacy-policy.html.twig', array('selected' => 'privacy_policy'));
-    }
-
     public function legalNoticeAction(Request $request)
     {
         $locale = $request->getLocale();
