@@ -20,3 +20,6 @@ web/css/*
 web/js/*
 web/app_dev.php
 src/Qnoow/LandingBundle/Resources/public/node_modules
+!src/Qnoow/LandingBundle/Resources/public/www
+/src/Qnoow/LandingBundle/Resources/public/www/*
+!src/Qnoow/LandingBundle/Resources/public/www/.gitkeep
