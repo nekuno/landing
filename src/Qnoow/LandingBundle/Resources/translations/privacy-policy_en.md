@@ -1,4 +1,4 @@
-##PRIVACY POLITIC OF THE APPLICATION "NEKUNO"
+##PRIVACY POLICY OF THE APPLICATION "NEKUNO"
 
 ###1.- Privacy and protection of personal data. 
 
