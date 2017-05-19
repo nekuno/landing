@@ -31,7 +31,8 @@ security:
         - { path: ^/jobs$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/contact$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/enterprise-contact$, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/legal-notice$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/terms-and-conditions$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/privacy-policy$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/terms-of-use$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/media/.+, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/landing, role: IS_AUTHENTICATED_ANONYMOUSLY }

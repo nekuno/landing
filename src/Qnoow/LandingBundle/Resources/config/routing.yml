@@ -26,8 +26,12 @@ qnoow_landing_contact:
     path:     /contact
     defaults: { _controller: QnoowLandingBundle:Default:contact }
 
+qnoow_landing_privacy_policy:
+    path:     /privacy-policy
+    defaults: { _controller: QnoowLandingBundle:Default:privacyPolicy }
+
 qnoow_landing_legal_notice:
-    path:     /legal-notice
+    path:     /terms-and-conditions
     defaults: { _controller: QnoowLandingBundle:Default:legalNotice }
 
 qnoow_request_invitation:
