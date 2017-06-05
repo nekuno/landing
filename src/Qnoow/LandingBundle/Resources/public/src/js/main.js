@@ -232,18 +232,6 @@
 
     /** End ajax login and invitation forms **/
 
-    /** Start show notice for Apple Store icon click **/
-    $('.apple-store-link').on('click', function(e) {
-        e.preventDefault();
-        var noticeElem = $('#apple-store-notice');
-        noticeElem.addClass('active');
-        $('.container').animate({opacity: 0.3}, 400);
-        noticeElem.find('.close').one('click', function() {
-            noticeElem.removeClass('active');
-            $('.container').animate({opacity: 1}, 400);
-        });
-    });
-
     /** Start change "About us" rand word **/
     if (isAboutUsPage()) {
         var changingWordsContainer = $('#changing-words');
