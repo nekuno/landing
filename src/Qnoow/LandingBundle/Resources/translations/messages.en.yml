@@ -2,7 +2,6 @@ landing:
   general:
     comments: Comments
     download_app_first_line: 'Download App'
-    comming_soon: 'Comming soon in'
     apple_store: 'Apple Store'
     google_play: 'Google Play'
     close: Close
