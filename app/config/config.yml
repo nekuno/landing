@@ -116,4 +116,16 @@ liip_imagine:
             quality: 90
             filters:
                 thumbnail: { size: [512, 512], mode: outbound }
+        group_small:
+            quality: 90
+            filters:
+                thumbnail: { size: [188, 188], mode: outbound }
+        group_medium:
+            quality: 90
+            filters:
+                thumbnail: { size: [431, null], mode: outbound }
+        group_big:
+            quality: 100
+            filters:
+                thumbnail: { size: [800, null], mode: outbound }
 
