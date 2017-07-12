@@ -40,7 +40,7 @@ The APP is offered for download, installation and execution ‘as is’ at the t
 
 The Company has the right to delete and / or edit any Content of the APP that does not comply with applicable law, the obligations described in these GCUs or in the PCUs that may be considered inappropriate by the Company.
 
-In the event that the User or any third party is aware of any breach of the provisions of the present GCU described herein or of any circumstance that could damage property, rights or interests protected, the User should immediately contact the Company sending an Email to"info@nekuno.es" indicating the alleged violation or circumstance.
+In the event that the User or any third party is aware of any breach of the provisions of the present GCU described herein or of any circumstance that could damage property, rights or interests protected, the User should immediately contact the Company sending an Email to"info@nekuno.com" indicating the alleged violation or circumstance.
 
 The Company, once it receives the communication, will use the utmost diligence in the attention and resolution of the same.
 

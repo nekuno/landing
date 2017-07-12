@@ -40,7 +40,7 @@ La APP se ofrece para su descarga, instalación y ejecución en la forma en que 
 
 La Sociedad tiene derecho a borrar y/o editar cualquier Contenido de la APP que incumpla la ley aplicable, las obligaciones descritas en estas CGU o en las CPU que, en su caso, fueran de aplicación, o pueda ser considerado inapropiado por la Sociedad.
 
-En caso de que el Usuario o cualquier tercero tenga conocimiento de alguna vulneración de lo dispuesto las presentes CGU aquí descritas o de cualquier circunstancia que pudiera lesionar bienes, derechos o intereses protegibles, deberá ponerse inmediatamente en contacto con la Sociedad a través de la dirección de correo electrónico “info@nekuno.es” indicando la supuesta vulneración o circunstancia.
+En caso de que el Usuario o cualquier tercero tenga conocimiento de alguna vulneración de lo dispuesto las presentes CGU aquí descritas o de cualquier circunstancia que pudiera lesionar bienes, derechos o intereses protegibles, deberá ponerse inmediatamente en contacto con la Sociedad a través de la dirección de correo electrónico “info@nekuno.com” indicando la supuesta vulneración o circunstancia.
 
 La Sociedad una vez que reciba la comunicación, empleará la máxima diligencia en la atención y resolución de la misma.
 
