@@ -12,7 +12,7 @@ La finalidad en la recogida de datos personales son las siguientes:
 
 - Realizar avisos, para lo cual se podrá utilizar, entre otros, medios como el correo electrónico y el teléfono móvil;
 
-- Remitir al Usuario comunicaciones comerciales propias o de terceros, por cualquier canal, incluido el correo electrónico. El Usuario podrá decidir no recibir comunicaciones comerciales comunicándolo a la Sociedad, a través de la siguiente dirección de correo electrónico: info@nekuno.es. Esta opción no es aplicable a la publicidad incorporada en la APP descrita más adelante en la presente cláusula;
+- Remitir al Usuario comunicaciones comerciales propias o de terceros, por cualquier canal, incluido el correo electrónico. El Usuario podrá decidir no recibir comunicaciones comerciales comunicándolo a la Sociedad, a través de la siguiente dirección de correo electrónico: info@nekuno.com. Esta opción no es aplicable a la publicidad incorporada en la APP descrita más adelante en la presente cláusula;
 
 - Compartir con terceros información sobre perfiles de los Usuarios anonimizados, esto es, sin datos de carácter personal, sobre sus preferencias.
 
@@ -22,7 +22,7 @@ La Sociedad protegerá los datos de carácter personal que el Usuario pudiera fa
 
 La Sociedad, como responsable del mencionado fichero garantiza el ejercicio de los derechos de acceso, rectificación, cancelación y oposición de los datos de carácter personal facilitados por el Usuario y se compromete, a la utilización de los datos incluidos en el mismo, a respetar su confidencialidad y a utilizarlos de acuerdo con su finalidad, referidas en estas CGU.
 
-Para el ejercicio de los derechos recogidos en la presente cláusula, así como para revocar el consentimiento prestado para el tratamiento de datos, el interesado deberá dirigirse por escrito a la Unidad de Protección de Datos de la Sociedad, con domicilio en calle Primavera de Praga, 11 – local 11, (28030 Madrid), o a través de correo electrónico info@nekuno.es.
+Para el ejercicio de los derechos recogidos en la presente cláusula, así como para revocar el consentimiento prestado para el tratamiento de datos, el interesado deberá dirigirse por escrito a la Unidad de Protección de Datos de la Sociedad, con domicilio en calle Primavera de Praga, 11 – local 11, (28030 Madrid), o a través de correo electrónico info@nekuno.com.
 
 El almacenamiento de los datos proporcionados por los Usuarios se realiza de conformidad con todas las garantías de seguridad exigidas por la legislación vigente.
 
@@ -49,7 +49,7 @@ La Sociedad no es responsable de los cambios o actualizaciones de los Contenidos
 
 En caso de que el Usuario comparta Contenido a través de la APP, el Usuario autoriza a la Sociedad gratuitamente, no en exclusiva, sin limitación geográfica ni temporal alguna, a la explotación de los mismos a través de la APP, por lo que la Sociedad podrá, sin que por ello se devengue contraprestación alguna para el Usuario, publicar, modificar, transformar, recopilar, comunicar públicamente y, en los términos más amplios, explotar de cualquier forma el Contenido compartido por el Usuario a través de la APP.
 
-Si el Usuario es conocedor de alguna vulneración en materia de derecho de imagen o de propiedad intelectual y/o industrial del Contenido compartido por el Usuario a través de la APP, deberá comunicarlo a la mayor brevedad a la dirección de correo electrónico info@nekuno.es.
+Si el Usuario es conocedor de alguna vulneración en materia de derecho de imagen o de propiedad intelectual y/o industrial del Contenido compartido por el Usuario a través de la APP, deberá comunicarlo a la mayor brevedad a la dirección de correo electrónico info@nekuno.com.
 
 
 ###3.-Jurisdicción y ley aplicable.
