@@ -166,7 +166,7 @@
             window.location = 'http://m.nekuno.com';
         }*/
         var host = isProduction() ? 'https://m.nekuno.com' : isDevelop() ? 'https://m.pre.nekuno.com' : 'https://client.local.nekuno.com';
-        window.location = 'https://www.facebook.com/v2.9/dialog/oauth/?client_id=900844543277969&response_type=token&redirect_uri=%host%/oauthcallback.html&state={"client_id":900844543277969,"network":"facebook","display":"page","callback":"_hellojs_2l8lw6nb","state":"","redirect_uri":"%host%/oauthcallback.html","scope":"basic,public_profile,email,user_birthday,user_location,user_likes,user_posts","page_uri":"%host%/"}&scope=public_profile,email,user_birthday,user_location,user_likes,user_posts&display=page'.replace('%host%', host);
+        window.location = 'https://www.facebook.com/v2.9/dialog/oauth/?client_id=900844543277969&response_type=token&redirect_uri=%host%/oauthcallback.html&state={"client_id":900844543277969,"network":"facebook","display":"page","callback":"_hellojs_2l8lw6nb","state":"","redirect_uri":"%host%/oauthcallback.html","scope":"basic,public_profile,email,user_birthday,user_location,user_likes,user_posts","page_uri":"%host%/"}&scope=public_profile,email,user_birthday,user_location,user_likes,user_posts&display=page'.replace(/%host%/gi, host);
     });
     $('a.request-invitation').on('click', function() {
         var loginButton = $('.login-button a')[0];
