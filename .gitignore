@@ -5,6 +5,9 @@
 /var/cache
 /var/logs
 /var/sessions
+/app/cache
+/app/logs
+/app/sessions
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
